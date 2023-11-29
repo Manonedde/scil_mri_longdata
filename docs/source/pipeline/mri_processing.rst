@@ -9,7 +9,7 @@ Tools
  - For ihMT processing we used `ihMTflow <https://github.com/scilus/ihmt_flow>`__
 
 
-.. figure:: pipeline.jpg
+.. figure:: pipelines.jpg
    :align: center
    :width: 700
 
