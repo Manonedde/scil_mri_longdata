@@ -17,8 +17,9 @@ with a tolerated 2–3-hour variation).
    :align: center
    :width: 700
 
-   3DT1 : Anatomical 3D T1-weighted, DWI : Diffusion weighted Images,
-   reverse b0 : Reverse phase encoding B0, ihMT: inhomogeneous magnetization transfer
+
+3DT1 : Anatomical 3D T1-weighted, DWI : Diffusion weighted Images,
+reverse b0 : Reverse phase encoding B0, ihMT: inhomogeneous magnetization transfer
 
 
 
