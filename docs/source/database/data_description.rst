@@ -127,15 +127,6 @@ To convert our DICOM data folder to the compatible BIDS structure, we used
   dcm2bids -d DICOM_folder -p id_subject -c config.txt -o sub-id
 
 
-    > [!IMPORTANT]
-    > Input Data recommendation for ihMT flow.
-      - it is recommended to use dcm2niix bin file `v1.0.20200331 <https://github.com/rordenlab/dcm2niix/releases/tag/v1.0.20200331>`__.
-      - Use the 'TriggerDelayTime' parameter (json) to split each contrast (positive, negative, ...).
-      - dcm2niix conversion will create all echo files (if applicable) for each contrast and corresponding json files.
-      - all input must have a matching json file with the same filename.
-      - all contrasts must have a same number of echoes.
-
-
 Quality Control raw data
 ------------------------
 
@@ -160,7 +151,7 @@ Example of datasets for one subject
 +----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 |        DWI - b0            |    DWI - b value = 300     |    DWI - b value = 1000    |    DWI - b value = 2000    |      DWI - Reverse B0      |
 +============================+============================+============================+============================+============================+
-| .. image:: b0.png          |  .. image:: b300.png       | .. image:: b1000.png       | .. image:: b2000.png      | .. image:: epi.png          |
+| .. image:: dwiB0.png       |  .. image:: b300.png       | .. image:: b1000.png       | .. image:: b2000.png       | .. image:: revB0.png       |
 |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |
 +----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 
@@ -169,7 +160,7 @@ Example of datasets for one subject
 +--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
 |          MT-Off          |     Positive (pos)    |    Negative (neg)     |  Alternative pos-neg  | Alternative neg-pos   |      T1w ihMT        |
 +==========================+=======================+=======================+=======================+=======================+======================+
-| .. image:: mtoff.png     | .. image:: pos.png    |  .. image:: neg.png   | .. image:: altpn.png  | .. image:: altnp.png  | .. image:: T1w.png   |
+| .. image:: ioff.png      | .. image:: ipos.png   |  .. image:: ineg.png  | .. image:: ialtpn.png | .. image:: ialtnp.png | .. image:: iT1w.png  |
 |    :width: 200           |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200       |
 +--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
 
