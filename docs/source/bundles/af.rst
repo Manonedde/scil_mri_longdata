@@ -60,30 +60,50 @@ Measures averaged along the bundle.
 Profile-Bundle Measures
 ------------------------
 
+Volume by sections
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+  :file: ../download/AF/AF_volume_profile.html
+
+
+DTI measures
+~~~~~~~~~~~~~~~~~~~~~~~
+
 .. raw:: html
   :file: ../download/AF/DTI__AF_profile.html
 
 
+DTI-FW measures
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
   :file: ../download/AF/DTI-FW__AF_profile.html
 
 
+FW measures
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
   :file: ../download/AF/FW__AF_profile.html
 
 
+FODF measures
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
   :file: ../download/AF/FODF__AF_profile.html
 
 
+NODDI measures
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
   :file: ../download/AF/NODDI__AF_profile.html
 
 
+MTI measures
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
   :file: ../download/AF/MTI__AF_profile.html
