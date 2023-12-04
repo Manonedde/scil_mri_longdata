@@ -19,7 +19,7 @@ over all streamlines and bundle-specific metrics.
     .. tab:: Bundle
 
         .. csv-table:: Statistics descriptive of Bundle
-           :file: table_test_bundles.csv
+           :file: ../data/AF_streamlines_summary.csv
            :widths: 30, 70
            :heaader-rows: 1
 
@@ -27,7 +27,7 @@ over all streamlines and bundle-specific metrics.
     .. tab:: Measure
 
         .. csv-table:: Statistics descriptive of measure
-           :file: table_measure_test.csv
+           :file: ../data/AF_streamlines_summary.csv
            :widths: 30, 70
            :header-rows: 1
 
@@ -57,41 +57,7 @@ Diffusion DTI
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/DTI__AF_boxplot
-
-
-Diffusion FW
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/FW__AF_boxplot
-
-
-Diffusion DTI - FW
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/DTI-FW__AF_boxplot
-
-
-Diffusion FODF
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/FODF__AF_boxplot
-
-Diffusion NODDI
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/NODDI__AF_boxplot
-
-
-Diffusion MTI
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/MTI__AF_profile
+  :file: ../download/AF_boxplot_measures.html
 
 
 
@@ -99,45 +65,6 @@ Diffusion MTI
 Profile-Bundle Measures
 ------------------------
 
-Diffusion DTI
-~~~~~~~~~~~~~~~~~~~~~~~
-
 .. raw:: html
-  :file: ../download/DTI__AF_profile
-
-
-Diffusion FW
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/FW__AF_profile
-
-
-Diffusion DTI - FW
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/DTI-FW__AF_profile
-
-
-Diffusion FODF
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/FODF__AF_profile
-
-Diffusion NODDI
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/NODDI__AF_profile
-
-
-Diffusion MTI
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-  :file: ../download/MTI__AF_profile
-
-
+  :file: ../download/DTI__AF_profile.html
 
