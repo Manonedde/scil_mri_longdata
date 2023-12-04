@@ -1,9 +1,7 @@
 Arcuate Fasciculus
 ==========================
-Image gif of AF bundle.
 
-
- .. image:: ../download/AF.gif
+ .. image:: ../download/AF/AF.gif
     :width: 200
     :align: center
 
@@ -27,7 +25,7 @@ over all streamlines and bundle-specific metrics.
     .. tab:: Measure
 
         .. csv-table:: Statistics descriptive of measure
-           :file: ../data/AF_streamlines_summary.csv
+           :file: ../data/AF/AF_average_summary.csv
            :widths: 30, 70
            :header-rows: 1
 
@@ -44,7 +42,7 @@ Correlations
 ------------------------
 
 .. raw:: html
-  :file: ../download/AF_correlation_plots.html
+  :file: ../download/AF/AF_correlation_plots.html
 
 
 Whole-Bundle Measures
@@ -53,11 +51,8 @@ Whole-Bundle Measures
 Measures averaged along the bundle.
 
 
-Diffusion DTI
-~~~~~~~~~~~~~~~~~~~~~~~
-
 .. raw:: html
-  :file: ../download/AF_boxplot_measures.html
+  :file: ../download/AF/AF_boxplot_measures.html
 
 
 
@@ -66,5 +61,29 @@ Profile-Bundle Measures
 ------------------------
 
 .. raw:: html
-  :file: ../download/DTI__AF_profile.html
+  :file: ../download/AF/DTI__AF_profile.html
 
+
+
+.. raw:: html
+  :file: ../download/AF/DTI-FW__AF_profile.html
+
+
+
+.. raw:: html
+  :file: ../download/AF/FW__AF_profile.html
+
+
+
+.. raw:: html
+  :file: ../download/AF/FODF__AF_profile.html
+
+
+
+.. raw:: html
+  :file: ../download/AF/NODDI__AF_profile.html
+
+
+
+.. raw:: html
+  :file: ../download/AF/MTI__AF_profile.html
