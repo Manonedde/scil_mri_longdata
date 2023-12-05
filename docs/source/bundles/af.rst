@@ -1,7 +1,7 @@
 Arcuate Fasciculus
 ==========================
 
- .. image:: ../download/AF/AF.gif
+ .. image:: ../data/AF/AF.gif
     :width: 200
     :align: center
 
@@ -17,7 +17,7 @@ over all streamlines and bundle-specific metrics.
     .. tab:: Bundle
 
         .. csv-table:: Statistics descriptive of Bundle
-           :file: ../data/AF_streamlines_summary.csv
+           :file: ../data/AF/AF_streamlines_summary.csv
            :widths: 30, 70
            :header-rows: 1
 
@@ -30,19 +30,23 @@ over all streamlines and bundle-specific metrics.
            :header-rows: 1
 
 
+
 Heatmap
 ------------------------
 
 Heatmap for AF.
 
 .. raw:: html
-  :file: ../download/AF_correlation_map_with_slider.html
+  :file: ../data/AF_correlation_map_with_slider.html
+
+
 
 Correlations
 ------------------------
 
 .. raw:: html
-  :file: ../download/AF/AF_correlation_plots.html
+  :file: ../data/AF/AF_correlation_plots.html
+
 
 
 Whole-Bundle Measures
@@ -52,7 +56,7 @@ Measures averaged along the bundle.
 
 
 .. raw:: html
-  :file: ../download/AF/AF_boxplot_measures.html
+  :file: ../data/AF/AF_boxplot_measures.html
 
 
 
@@ -64,46 +68,52 @@ Volume by sections
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/AF/AF_volume_profile.html
+  :file: ../data/AF/AF_volume_profile.html
+
 
 
 DTI measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/AF/DTI__AF_profile.html
+  :file: ../data/AF/DTI__AF_profile.html
+
 
 
 DTI-FW measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/AF/DTI-FW__AF_profile.html
+  :file: ../data/AF/DTI-FW__AF_profile.html
+
 
 
 FW measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/AF/FW__AF_profile.html
+  :file: ../data/AF/FW__AF_profile.html
+
 
 
 FODF measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/AF/FODF__AF_profile.html
+  :file: ../data/AF/FODF__AF_profile.html
+
 
 
 NODDI measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/AF/NODDI__AF_profile.html
+  :file: ../data/AF/NODDI__AF_profile.html
+
 
 
 MTI measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../download/AF/MTI__AF_profile.html
+  :file: ../data/AF/MTI__AF_profile.html
