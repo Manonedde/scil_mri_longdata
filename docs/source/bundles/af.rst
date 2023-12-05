@@ -64,6 +64,14 @@ Measures averaged along the bundle.
 Profile-Bundle Measures
 ------------------------
 
+
+.. csv-table:: Statistics descriptive of profile bundle
+    :file: ../data/AF/AF_profile_summary.csv
+    :widths: 30, 70
+    :header-rows: 1
+
+
+
 Volume by sections
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -77,7 +85,6 @@ DTI measures
 
 .. raw:: html
   :file: ../data/AF/DTI__AF_profile.html
-
 
 
 DTI-FW measures
@@ -117,3 +124,47 @@ MTI measures
 
 .. raw:: html
   :file: ../data/AF/MTI__AF_profile.html
+
+
+
+
+Profile - Tabs version
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. tabs::
+
+
+    .. tab:: Volume
+
+        .. raw:: html
+          :file: ../data/AF/AF_volume_profile.html
+
+
+    .. tab:: DTI-FW
+
+        .. raw:: html
+          :file: ../data/AF/DTI-FW__AF_profile.html
+
+
+    .. tab:: FODF
+
+        .. raw:: html
+          :file: ../data/AF/FODF__AF_profile.html
+
+
+    .. tab:: FW
+
+        .. raw:: html
+          :file: ../data/AF/FW__AF_profile.html
+
+
+    .. tab:: MTI
+
+        .. raw:: html
+          :file: ../data/AF/MTI__AF_profile.html
+
+
+    .. tab:: NODDI
+
+        .. raw:: html
+          :file: ../data/AF/NODDI__AF_profile.html
