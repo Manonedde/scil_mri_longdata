@@ -33,6 +33,7 @@ FW
 
 .. raw:: html
   :file: ../data/WB/FW_measurement_boxplot.html
+  :width: 500 px
 
 
 

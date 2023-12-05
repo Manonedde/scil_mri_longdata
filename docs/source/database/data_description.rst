@@ -13,8 +13,9 @@ For each participant, images were acquired at approximately the same time of day
 to avoid potential diurnal effects (i.e., a morning participant had all sessions in the morning, 
 with a tolerated 2–3-hour variation). 
 
+
 .. figure:: data_collection.jpg
-    :align: center
+   :align: center
    :width: 800
 
    3DT1 - Anatomical 3D T1-weighted, DWI - Diffusion weighted Images, reverse b0 - Reverse phase encoding B0, ihMT - inhomogeneous magnetization transfer
@@ -67,7 +68,6 @@ All MRI data acquisitions were aligned on the anterior commissure-posterior comm
 An example of bvec and bval file for DWI can be downloaded here:
 
  :download:`bval bvec files<../download/bval_bvec_files.zip>`
-
 
 
 Data conversion: DICOM to BIDS

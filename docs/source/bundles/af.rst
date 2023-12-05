@@ -30,7 +30,6 @@ over all streamlines and bundle-specific metrics.
            :header-rows: 1
 
 
-
 Heatmap
 ------------------------
 
@@ -39,7 +38,6 @@ Association between different MRI measures extracted from AF are evaluated using
 
 .. raw:: html
   :file: ../data/AF_correlation_map_with_slider.html
-
 
 
 Correlations
@@ -130,8 +128,8 @@ MTI measures
   :file: ../data/AF/MTI__AF_profile.html
 
 
-Profile - Tabs version
--------------------------------
+Profile Measures - Tabs version
+---------------------------------
 
 Here configuration with tab.
 

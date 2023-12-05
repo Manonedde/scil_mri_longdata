@@ -1,7 +1,8 @@
 WM Bundles Evaluation
 ========================
 
-For each bundle, subject and session, 3 types of measurements are extracted using the tractometry flow pipeline: 
+For each bundle, subject and session, 3 types of measurements are extracted using the tractometry flow pipeline:
+
 - Bundle-averaged
 - Bundle-profile or track-profile
 - Bundle-streamline measures
