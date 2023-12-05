@@ -19,7 +19,7 @@ over all streamlines and bundle-specific metrics.
         .. csv-table:: Statistics descriptive of Bundle
            :file: ../data/AF_streamlines_summary.csv
            :widths: 30, 70
-           :heaader-rows: 1
+           :header-rows: 1
 
 
     .. tab:: Measure

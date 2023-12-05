@@ -11,7 +11,6 @@ The tools described and used are developed by the Sherbrooke Connectivity Imagin
    :maxdepth: 1
    :caption: Database
 
-   database/overview
    database/data_description
 
 .. toctree::
@@ -25,9 +24,10 @@ The tools described and used are developed by the Sherbrooke Connectivity Imagin
    :maxdepth: 1
    :caption: Whole brain
 
-   whole_brain/wm
-   whole_brain/gm
-   whole_brain/csf
+   whole_brain/average_maps
+   whole_brain/correlation
+   whole_brain/measure
+
 
 .. toctree::
   :maxdepth: 1
@@ -56,5 +56,4 @@ The tools described and used are developed by the Sherbrooke Connectivity Imagin
   :maxdepth: 1
   :caption: Download
 
-  data/mean_data
-  data/long_data
+  data/download_data
