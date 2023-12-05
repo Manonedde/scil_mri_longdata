@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "The high-frequency MRI database"
+name = "The SCIL multimodale MRI"
 authors = [{name = "SCIL", email = "Manon.edde@USherbrooke.ca"}]
 dynamic = ["version", "description"]
