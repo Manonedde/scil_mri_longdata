@@ -3,8 +3,9 @@ Data collection
 
 Imaging Protocol
 -----------------
+
 Twenty healthy adults (mean age 36 years, age range 29-46 y.o.(SD = 4.7),
-3 men and 17 women) were scan at the Centre Hospitalier Universitaire
+4 men and 17 women) were scan at the Centre Hospitalier Universitaire
 of Sherbrooke (CHUS) using a clinical 3T MRI scanner (Ingenia, Philips
 Healthcare, Best, Netherlands) with a 32-channel head coil.
 
@@ -12,14 +13,11 @@ For each participant, images were acquired at approximately the same time of day
 to avoid potential diurnal effects (i.e., a morning participant had all sessions in the morning, 
 with a tolerated 2–3-hour variation). 
 
+.. figure:: data_collection.jpg
+    :align: center
+   :width: 800
 
-.. image:: data_collection.jpg
-   :align: center
-   :width: 700
-
-
-3DT1 : Anatomical 3D T1-weighted, DWI : Diffusion weighted Images,
-reverse b0 : Reverse phase encoding B0, ihMT: inhomogeneous magnetization transfer
+   3DT1 - Anatomical 3D T1-weighted, DWI - Diffusion weighted Images, reverse b0 - Reverse phase encoding B0, ihMT - inhomogeneous magnetization transfer
 
 
 
@@ -75,7 +73,7 @@ An example of bvec and bval file for DWI can be downloaded here:
 Data conversion: DICOM to BIDS
 ------------------------------
 
-To convert data we use `BIDS standard <http://bids.neuroimaging.io/>`__.
+To convert data we use `BIDS`_.
 An example of the data structure for one subject is shown below:
 
 ::
@@ -120,7 +118,7 @@ An example of the data structure for one subject is shown below:
 
 
 To convert our DICOM data folder to the compatible BIDS structure, we used
-`dcm2bids <https://github.com/cbedetti/Dcm2Bids#install>`__.
+`dcm2bids`_.
 
 .. code-block:: bash
 
@@ -130,7 +128,7 @@ To convert our DICOM data folder to the compatible BIDS structure, we used
 Quality Control raw data
 ------------------------
 
-Quality control of raw data was performed using DMRIQC flow `DMRIQC flow <https://github.com/scilus/dmriqc_flow>`__.
+Quality control of raw data was performed using DMRIQC flow `DMRI QC Flow`_.
 
 
 Example of datasets for one subject
@@ -151,7 +149,7 @@ Example of datasets for one subject
 +----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 |        DWI - b0            |    DWI - b value = 300     |    DWI - b value = 1000    |    DWI - b value = 2000    |      DWI - Reverse B0      |
 +============================+============================+============================+============================+============================+
-| .. image:: dwiB0.png       |  .. image:: b300.png       | .. image:: b1000.png       | .. image:: b2000.png       | .. image:: revB0.png       |
+| .. image:: dwiB0.png       |  .. image:: b300.gif       | .. image:: b1000.gif       | .. image:: b2000.gif       | .. image:: revB0.png       |
 |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |
 +----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 
@@ -163,4 +161,9 @@ Example of datasets for one subject
 | .. image:: ioff.png      | .. image:: ipos.png   |  .. image:: ineg.png  | .. image:: ialtpn.png | .. image:: ialtnp.png | .. image:: iT1w.png  |
 |    :width: 200           |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200       |
 +--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
+
+
+ .. _DMRI QC Flow: https://github.com/scilus/dmriqc_flow
+ .. _dcm2bids: https://github.com/cbedetti/Dcm2Bids#install
+ .. _BIDS: http://bids.neuroimaging.io/
 

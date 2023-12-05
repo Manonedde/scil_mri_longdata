@@ -1,5 +1,5 @@
-Whole-Bundles measures
-==========================
+Whole-Bundles measures - SCATTERPLOT
+=====================================
 
 
 Streamlines measure
@@ -18,6 +18,8 @@ DTI
 
 .. raw:: html
   :file: ../data/WB/DTI_measurement_distribution.html
+
+
 
 DTI-FW corrected
 ~~~~~~~~~~~~~~~~~~~~~~~

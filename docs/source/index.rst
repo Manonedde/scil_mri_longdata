@@ -1,10 +1,12 @@
-Welcome to the High-frequency MRI database documentation
-=========================================================
+Welcome to the SCIL longitudinal multimodal MRI database
+==========================================================
 
 The SCIL longitudinal multimodal MRI database is a single-center, repeated-measures study that collects
 multimodal MRI data with a high number of acquisitions over a short period of time in healthy subjects.
 
-The tools described and used are developed by the Sherbrooke Connectivity Imaging Lab, `SCIL <https://github.com/scilus>`__.
+The tools described and used are developed by the Sherbrooke Connectivity Imaging Lab, `SCIL`_.
+
+ .. _SCIL: https://github.com/scilus
 
 
 .. toctree::
@@ -18,14 +20,14 @@ The tools described and used are developed by the Sherbrooke Connectivity Imagin
    :caption: Pipeline
 
    pipeline/mri_processing
-   pipeline/bundles
+   pipeline/evaluation_metrics
 
 .. toctree::
    :maxdepth: 1
    :caption: Whole brain
 
    whole_brain/average_maps
-   whole_brain/correlation
+   whole_brain/measure_v2
    whole_brain/measure
 
 

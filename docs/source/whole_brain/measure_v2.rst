@@ -1,5 +1,5 @@
-Whole-Bundles measures
-==========================
+Whole-Bundles measures - BOXPLOT
+=================================
 
 
 Streamlines measure
@@ -18,6 +18,8 @@ DTI
 
 .. raw:: html
   :file: ../data/WB/DTI_measurement_boxplot.html
+
+
 
 DTI-FW corrected
 ~~~~~~~~~~~~~~~~~~~~~~~

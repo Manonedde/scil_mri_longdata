@@ -1,9 +1,11 @@
 Arcuate Fasciculus
 ==========================
 
- .. image:: ../data/AF/AF.gif
-    :width: 200
+.. figure:: ../data/AF/AF.gif
     :align: center
+    :figwidth: 80%
+
+    Arcuate Fasciculus - Appears in the following order: local coloring, uniform coloring, profile coloring
 
 
 Statistics descriptive
@@ -16,7 +18,7 @@ over all streamlines and bundle-specific metrics.
 
     .. tab:: Bundle
 
-        .. csv-table:: Statistics descriptive of Bundle
+        .. csv-table:: Statistics descriptive of Streamlines measures
            :file: ../data/AF/AF_streamlines_summary.csv
            :widths: 30, 70
            :header-rows: 1
@@ -24,7 +26,7 @@ over all streamlines and bundle-specific metrics.
 
     .. tab:: Measure
 
-        .. csv-table:: Statistics descriptive of measure
+        .. csv-table:: Statistics descriptive of bundle measures
            :file: ../data/AF/AF_average_summary.csv
            :widths: 30, 70
            :header-rows: 1
@@ -34,7 +36,7 @@ over all streamlines and bundle-specific metrics.
 Heatmap
 ------------------------
 
-Heatmap for AF.
+Association between different MRI measures extracted from AF are evaluated using Pearson's correlation coefficient (r) and evaluated for each session (slider). For better contrast, Pearson correlation coefficients are displayed as absolute values.
 
 .. raw:: html
   :file: ../data/AF_correlation_map_with_slider.html
@@ -44,6 +46,8 @@ Heatmap for AF.
 Correlations
 ------------------------
 
+Here we use a scatterplot with a trend line to provide more information about the relationship between MRI measurements. Ordinary least squares (OLS) is used to evaluate the linear regression. OLS information is provided as a legend for each pair of measurements extracted from the AF. Use the menu to change the pair of associations.
+
 .. raw:: html
   :file: ../data/AF/AF_correlation_plots.html
 
@@ -52,7 +56,9 @@ Correlations
 Whole-Bundle Measures
 ------------------------
 
-Measures averaged along the bundle.
+The figures below show the distribution of each measurement for all sessions. 
+Use the slider to change the MRI measurements.
+For ease of reading, RD, MD and AD values are expressed in x10-3 and ihMTsat values are expressed in x10-1.
 
 
 .. raw:: html
