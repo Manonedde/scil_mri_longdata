@@ -3,7 +3,7 @@ Arcuate Fasciculus
 
 .. figure:: ../data/AF/AF.gif
     :align: center
-    :figwidth: 80%
+    :figwidth: 50%
 
     Arcuate Fasciculus - Appears in the following order: local coloring, uniform coloring, profile coloring
 
@@ -20,7 +20,6 @@ over all streamlines and bundle-specific metrics.
 
         .. csv-table:: Statistics descriptive of Streamlines measures
            :file: ../data/AF/AF_streamlines_summary.csv
-           :widths: 30, 70
            :header-rows: 1
 
 
@@ -28,7 +27,6 @@ over all streamlines and bundle-specific metrics.
 
         .. csv-table:: Statistics descriptive of bundle measures
            :file: ../data/AF/AF_average_summary.csv
-           :widths: 30, 70
            :header-rows: 1
 
 
@@ -37,6 +35,7 @@ Heatmap
 ------------------------
 
 Association between different MRI measures extracted from AF are evaluated using Pearson's correlation coefficient (r) and evaluated for each session (slider). For better contrast, Pearson correlation coefficients are displayed as absolute values.
+
 
 .. raw:: html
   :file: ../data/AF_correlation_map_with_slider.html
@@ -48,9 +47,9 @@ Correlations
 
 Here we use a scatterplot with a trend line to provide more information about the relationship between MRI measurements. Ordinary least squares (OLS) is used to evaluate the linear regression. OLS information is provided as a legend for each pair of measurements extracted from the AF. Use the menu to change the pair of associations.
 
+
 .. raw:: html
   :file: ../data/AF/AF_correlation_plots.html
-
 
 
 Whole-Bundle Measures
@@ -65,8 +64,6 @@ For ease of reading, RD, MD and AD values are expressed in x10-3 and ihMTsat val
   :file: ../data/AF/AF_boxplot_measures.html
 
 
-
-
 Profile-Bundle Measures
 ------------------------
 
@@ -77,17 +74,17 @@ Profile-Bundle Measures
     :header-rows: 1
 
 
-
 Volume by sections
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. raw:: html
   :file: ../data/AF/AF_volume_profile.html
 
 
-
 DTI measures
 ~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. raw:: html
   :file: ../data/AF/DTI__AF_profile.html
@@ -96,54 +93,60 @@ DTI measures
 DTI-FW measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 .. raw:: html
   :file: ../data/AF/DTI-FW__AF_profile.html
-
 
 
 FW measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 .. raw:: html
   :file: ../data/AF/FW__AF_profile.html
-
 
 
 FODF measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 .. raw:: html
   :file: ../data/AF/FODF__AF_profile.html
-
 
 
 NODDI measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 .. raw:: html
   :file: ../data/AF/NODDI__AF_profile.html
-
 
 
 MTI measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+
 .. raw:: html
   :file: ../data/AF/MTI__AF_profile.html
 
 
-
-
 Profile - Tabs version
-~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
+
+Here configuration with tab.
 
 .. tabs::
-
 
     .. tab:: Volume
 
         .. raw:: html
           :file: ../data/AF/AF_volume_profile.html
+
+
+    .. tab:: DTI
+
+        .. raw:: html
+          :file: ../data/AF/DTI__AF_profile.html
 
 
     .. tab:: DTI-FW
@@ -152,25 +155,25 @@ Profile - Tabs version
           :file: ../data/AF/DTI-FW__AF_profile.html
 
 
-    .. tab:: FODF
-
-        .. raw:: html
-          :file: ../data/AF/FODF__AF_profile.html
-
-
     .. tab:: FW
 
         .. raw:: html
           :file: ../data/AF/FW__AF_profile.html
 
 
-    .. tab:: MTI
+    .. tab:: FODF
 
         .. raw:: html
-          :file: ../data/AF/MTI__AF_profile.html
+          :file: ../data/AF/FODF__AF_profile.html
 
 
     .. tab:: NODDI
 
         .. raw:: html
           :file: ../data/AF/NODDI__AF_profile.html
+
+
+    .. tab:: MTI
+
+        .. raw:: html
+          :file: ../data/AF/MTI__AF_profile.html
