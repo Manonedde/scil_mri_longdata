@@ -8,48 +8,6 @@ Arcuate Fasciculus
     Arcuate Fasciculus - Appears in the following order: local coloring, uniform coloring, profile coloring
 
 
-Statistics descriptive
--------------------------------
-
-This section provides descriptive statistics for IRM metrics averaged
-over all streamlines and bundle-specific metrics.
-
-.. tabs::
-
-    .. tab:: Bundle
-
-        .. csv-table:: Statistics descriptive of Streamlines measures
-           :file: ../data/AF/AF_streamlines_summary.csv
-           :header-rows: 1
-
-
-    .. tab:: Measure
-
-        .. csv-table:: Statistics descriptive of bundle measures
-           :file: ../data/AF/AF_average_summary.csv
-           :header-rows: 1
-
-
-Statistics Test copy tabs from rtd - why not working ?
--------------------------------------------
-
-This section provides descriptive statistics for IRM metrics averaged
-over all streamlines and bundle-specific metrics.
-
-.. tabs::
-
-    .. tab:: Sphinx
-
-        If your project uses Sphinx,
-        we offer a special builder optimized for Sphinx projects.
-
-
-    .. tab:: MkDocs
-
-        If your project uses MkDocs,
-        we offer a special builder optimized for MkDocs projects.
-
-
 Heatmap
 ------------------------
 
@@ -80,20 +38,6 @@ For ease of reading, RD, MD and AD values are expressed in x10-3 and ihMTsat val
 
 .. raw:: html
   :file: ../data/AF/AF_boxplot_measures.html
-
-
-Profile-Bundle Measures
-------------------------
-
-Statistics by sections
-~~~~~~~~~~~~~~~~~~~~~~~
-
-
-.. csv-table:: Statistics descriptive of profile bundle
-    :file: ../data/AF/AF_profile_summary.csv
-    :header-rows: 1
-    :class: longtable
-    :widths: 1 1
 
 
 Volume by sections
@@ -161,6 +105,7 @@ Here configuration with tab.
 
     .. tab:: Volume
 
+        Figure html
         .. raw:: html
           :file: ../data/AF/AF_volume_profile.html
 
@@ -199,3 +144,73 @@ Here configuration with tab.
 
         .. raw:: html
           :file: ../data/AF/MTI__AF_profile.html
+
+
+
+Statistics descriptives
+-------------------------------
+
+This section provides descriptive statistics for IRM metrics averaged
+over all streamlines and bundle-specific metrics.
+
+.. tabs::
+
+    .. tab:: Bundle
+
+        .. csv-table:: Statistics descriptive of Streamlines measures
+           :file: ../data/AF/AF_streamlines_summary.csv
+           :header-rows: 1
+
+
+    .. tab:: Measure
+
+        .. csv-table:: Statistics descriptive of bundle measures
+           :file: ../data/AF/AF_average_summary.csv
+           :header-rows: 1
+
+
+   .. tab:: Profiles
+
+      .. tabs::
+
+         .. tab:: Volume
+
+            .. csv-table:: Volume by section
+              :file: ../data/AF/FW_profile_summary.csv
+              :header-rows: 1
+
+         .. tab:: DTI
+
+            .. csv-table:: Measures by section
+              :file: ../data/AF/DTI_profile_summary.csv
+              :header-rows: 1
+
+         .. tab:: DTI-FW
+
+            .. csv-table:: Measures by section
+              :file: ../data/AF/DTI-FW_profile_summary.csv
+              :header-rows: 1
+
+         .. tab:: FW
+
+            .. csv-table:: Measures by section
+              :file: ../data/AF/FW_profile_summary.csv
+              :header-rows: 1
+
+         .. tab:: FODF
+
+            .. csv-table:: Measures by section
+              :file: ../data/AF/FODF_profile_summary.csv
+              :header-rows: 1
+
+         .. tab:: NODDI
+
+            .. csv-table:: Measures by section
+              :file: ../data/AF/NODDI_profile_summary.csv
+              :header-rows: 1
+
+         .. tab:: MTI
+
+            .. csv-table:: Measures by section
+              :file: ../data/AF/MTI_profile_summary.csv
+              :header-rows: 1
