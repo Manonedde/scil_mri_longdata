@@ -74,7 +74,7 @@ Version html figure test.
 
 .. raw:: html
 
-    <iframe src="../data/AF/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="_static/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Skip: file header and comments
