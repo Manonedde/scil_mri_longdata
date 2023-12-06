@@ -36,23 +36,7 @@ The tools described and used are developed by the Sherbrooke Connectivity Imagin
   :caption: Bundles
 
   bundles/af
-  bundles/cg
-  bundles/ifof
-  bundles/ilf
-  bundles/or
-  bundles/uf
-  bundles/cst
-  bundles/cc1
-  bundles/cc2a
-  bundles/cc2b
-  bundles/cc3
-  bundles/cc4
-  bundles/cc5
-  bundles/cc6
-  bundles/cc7
-  bundles/slf1
-  bundles/slf2
-  bundles/slf3
+  bundles/stats_desc
 
 .. toctree::
   :maxdepth: 1
