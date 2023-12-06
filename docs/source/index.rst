@@ -37,6 +37,7 @@ The tools described and used are developed by the Sherbrooke Connectivity Imagin
 
   bundles/af
   bundles/stats_desc
+  bundles/test_fusion
 
 .. toctree::
   :maxdepth: 1
