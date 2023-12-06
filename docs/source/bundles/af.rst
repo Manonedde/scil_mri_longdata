@@ -30,7 +30,7 @@ over all streamlines and bundle-specific metrics.
            :header-rows: 1
 
 
-Statistics Test tabs - why not working ?
+Statistics Test copy tabs from rtd - why not working ?
 -------------------------------------------
 
 This section provides descriptive statistics for IRM metrics averaged
@@ -38,14 +38,16 @@ over all streamlines and bundle-specific metrics.
 
 .. tabs::
 
-    .. tab:: Bundle
+    .. tab:: Sphinx
 
-        stats des metrics shape du bundle.
+        If your project uses Sphinx,
+        we offer a special builder optimized for Sphinx projects.
 
 
-    .. tab:: Measure
+    .. tab:: MkDocs
 
-        Stats des metrics extract du bundle.
+        If your project uses MkDocs,
+        we offer a special builder optimized for MkDocs projects.
 
 
 Heatmap
@@ -90,6 +92,8 @@ Statistics by sections
 .. csv-table:: Statistics descriptive of profile bundle
     :file: ../data/AF/AF_profile_summary.csv
     :header-rows: 1
+    :class: longtable
+    :widths: 1 1
 
 
 Volume by sections
