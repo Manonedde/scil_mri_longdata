@@ -31,7 +31,7 @@ Bundle-averaged
      Figure 1. Representation of the pipelines used for the evaluation of the white matter bundles.
 
 Bundle-profile
-  To generate the bundle-profile (also called track-profiles), `Tractometry Flow`_ first compute a centroid which is then resampled to 20 equidistant points by streamline. Each voxel will have the section label (1 to 20) of its closest centroid point (Figure 2).
+  To generate the bundle-profile (also called track-profiles), `Tractometry Flow`_ first compute a centroid which is then resampled to 20 equidistant points. Each voxel will have the section label (1 to 20) of its closest centroid point (Figure 2).
   For each section, **mean** is computed by averaging the measures value of all voxels occupied by the section (label, Figure 1).
 
   .. figure:: bundles_profiling.png
@@ -48,11 +48,11 @@ Table describe all streamlines metrics which will be generated for each bundle.
 +-----------------+-----------------------+
 | Tools           | Streamline metrics    |
 +=================+=======================+
-| RBXflow         | Count                 |
+| RBXflow         | Count (n)             |
 +-----------------+-----------------------+
-|                 | Volume                |
+|                 | Volume (mm3)          |
 +-----------------+-----------------------+
-|                 | Length                |
+|                 | Length (mm)           |
 +-----------------+-----------------------+
 
 MRI measurements generated
@@ -60,7 +60,7 @@ MRI measurements generated
 Table describe all measure maps which will be evaluated.
 
 +-------------------------------+-------------------------------------------+
-| Tools                         | Generated images                          |
+| Tools                         | MRI measurements (mean)                   |
 +===============================+===========================================+
 | Tractoflow - DTI              | Fractional anisotropy (FA)                |
 +-------------------------------+--------------------+----------------------+
