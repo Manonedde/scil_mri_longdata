@@ -75,6 +75,7 @@ AF
 
          .. tab:: Plots
 
+
             .. raw:: html
               :file: ../data/AF/DTI__AF_profile.html
 
