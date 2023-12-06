@@ -12,7 +12,9 @@ This tutorial covers:
 
    Test file png figure.
 
+
 Version html figure test.
+
 
 .. raw:: html
   :file: ../data/AF/AF_volume_profile.html
@@ -47,8 +49,10 @@ Here are some configuration file examples to help you get started.
         If your project uses MkDocs,
         we offer a special builder optimized for MkDocs projects.
 
+
         .. raw:: html
           :file: ../data/AF/AF_volume_profile.html
+
 
 Editing the template
 --------------------
@@ -64,6 +68,7 @@ The configuration file probably needs some adjustments to accommodate exactly yo
    Test file png figure.
 
 Version html figure test.
+
 
 .. raw:: html
   :file: ../data/AF/AF_volume_profile.html
