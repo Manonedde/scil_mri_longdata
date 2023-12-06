@@ -92,6 +92,8 @@ Statistics by sections
 .. csv-table:: Statistics descriptive of profile bundle
     :file: ../data/AF/AF_profile_summary.csv
     :header-rows: 1
+    :class: longtable
+    :widths: 1 1
 
 
 Volume by sections
