@@ -30,7 +30,7 @@ over all streamlines and bundle-specific metrics.
            :header-rows: 1
 
 
-Statistics Test tabs - why not working ?
+Statistics Test copy tabs from rtd - why not working ?
 -------------------------------------------
 
 This section provides descriptive statistics for IRM metrics averaged
