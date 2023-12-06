@@ -39,3 +39,64 @@ Bundle-profile
      :width: 700
 
      Figure 2. Representation of  white matter major bundle models resampled  into 20 segments for illustration. Left and right have been merged. The colors displayed on the bundles represent the section numbers from 1 (blue) to 20 (red).
+
+
+Streamlines metrics generated
+-----------------------------
+Table describe all streamlines metrics which will be generated for each bundle.
+
++-----------------+-----------------------+
+| Tools           | Streamline metrics    |
++=================+=======================+
+| RBXflow         | Count                 |
++-----------------+-----------------------+
+|                 | Volume                |
++-----------------+-----------------------+
+|                 | Length                |
++-----------------+-----------------------+
+
+MRI measurements generated
+-------------------------------
+Table describe all measure maps which will be evaluated.
+
++-------------------------------+-------------------------------------------+
+| Tools                         | Generated images                          |
++===============================+===========================================+
+| Tractoflow - DTI              | Fractional anisotropy (FA)                |
++-------------------------------+--------------------+----------------------+
+|                               | Mean Diffusivity (MD)                     |
++-------------------------------+--------------------+----------------------+
+|                               | Radial Diffusivity (AD)                   |
++-------------------------------+--------------------+----------------------+
+|                               | Axial Diffusivity (AD)                    |
++-------------------------------+--------------------+----------------------+
+| Tractoflow - DTI-FW corrected | Fractional anisotropy tissue (FAt)        |
++-------------------------------+--------------------+----------------------+
+|                               | Mean Diffusivity tissue (MDt)             |
++-------------------------------+--------------------+----------------------+
+|                               | Radial Diffusivity tissue (ADt)           |
++-------------------------------+--------------------+----------------------+
+|                               | Axial Diffusivity tissue (ADt)            |
++-------------------------------+--------------------+----------------------+
+| Tractoflow - FW               | Free water (FW)                           |
++-------------------------------+--------------------+----------------------+
+| Tractoflow - FODF             | Apparent fiber density total (AFD total)  |
++-------------------------------+--------------------+----------------------+
+|                               | Number of fober direction (NuFO)          |
++-------------------------------+--------------------+----------------------+
+| NODDI flow                    | Intra-cellular volume fraction (ICvf)     |
++-------------------------------+--------------------+----------------------+
+|                               | Extra-cellular volume fraction (ECvf)     |
++-------------------------------+--------------------+----------------------+
+|                               | Isotropic volume fraction (ISOvf)         |
++-------------------------------+--------------------+----------------------+
+|                               | Orientation direction (OD)                |
++-------------------------------+--------------------+----------------------+
+| ihMT flow                     | ihMT ratio (ihMTR)                        |
++-------------------------------+--------------------+----------------------+
+|                               | ihMT delta R1 saturation (ihMTsat)        |
++-------------------------------+--------------------+----------------------+
+|                               | MT ratio (MTR)                            |
++-------------------------------+--------------------+----------------------+
+|                               | MT saturation (MTsat)                     |
++-------------------------------+--------------------+----------------------+
