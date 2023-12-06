@@ -13,6 +13,9 @@ This tutorial covers:
    Test file png figure.
 
 
+Html
+------------------------------------
+
 Version html figure test.
 
 
@@ -34,7 +37,7 @@ Here are some configuration file examples to help you get started.
 
 .. tabs::
 
-    .. tab:: Sphinx
+    .. tab:: PNG
 
         If your project uses Sphinx,
         we offer a special builder optimized for Sphinx projects.
@@ -44,7 +47,7 @@ Here are some configuration file examples to help you get started.
           :width: 700
 
 
-    .. tab:: MkDocs
+    .. tab:: HTML
 
         If your project uses MkDocs,
         we offer a special builder optimized for MkDocs projects.
@@ -69,9 +72,9 @@ The configuration file probably needs some adjustments to accommodate exactly yo
 
 Version html figure test.
 
-
 .. raw:: html
-  :file: ../data/AF/AF_volume_profile.html
+
+    <iframe src="../data/AF/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Skip: file header and comments
@@ -99,7 +102,7 @@ or in the future when you need features from a newer Ubuntu.
 
 .. seealso::
 
-   toto is tata and not titi.
+   ycgvoygbpiuubilhhvuvutv
 
 
 Adjust: Python configuration
