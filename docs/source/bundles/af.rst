@@ -3,7 +3,7 @@ Arcuate Fasciculus
 
 .. figure:: ../data/AF/AF.gif
     :align: center
-    :figwidth: 50%
+    :figwidth: 60%
 
     Arcuate Fasciculus - Appears in the following order: local coloring, uniform coloring, profile coloring
 
@@ -30,6 +30,24 @@ over all streamlines and bundle-specific metrics.
            :header-rows: 1
 
 
+Statistics Test tabs - why not working ?
+-------------------------------------------
+
+This section provides descriptive statistics for IRM metrics averaged
+over all streamlines and bundle-specific metrics.
+
+.. tabs::
+
+    .. tab:: Bundle
+
+        stats des metrics shape du bundle.
+
+
+    .. tab:: Measure
+
+        Stats des metrics extract du bundle.
+
+
 Heatmap
 ------------------------
 
@@ -37,7 +55,7 @@ Association between different MRI measures extracted from AF are evaluated using
 
 
 .. raw:: html
-  :file: ../data/AF_correlation_map_with_slider.html
+  :file: ../data/AF/AF_correlation_map_with_slider.html
 
 
 Correlations
@@ -65,10 +83,12 @@ For ease of reading, RD, MD and AD values are expressed in x10-3 and ihMTsat val
 Profile-Bundle Measures
 ------------------------
 
+Statistics by sections
+~~~~~~~~~~~~~~~~~~~~~~~
+
 
 .. csv-table:: Statistics descriptive of profile bundle
     :file: ../data/AF/AF_profile_summary.csv
-    :widths: 30, 70
     :header-rows: 1
 
 

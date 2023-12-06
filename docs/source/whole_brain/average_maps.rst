@@ -2,8 +2,9 @@ Averaged measures
 =================================
 
 The average maps for each of the available MRI measurements were computed by registering, for each subject and session, the subject-specific measurement maps in a common space specific to our population.
+The images were then averaged to generate the average images below.
 
-See `Common space`_ for a description of the common space method.
+See `here`_ for a description of the common space and averaged maps methods.
 
 
 Diffusion DTI
@@ -61,4 +62,4 @@ A color version using the Jet colormap is available here: :download:`MTI color v
 
 
 
- .. _Common space: https://high-frequency-mri-database-supplementary.readthedocs.io/en/latest/pipeline/common_space.html
+ .. _here: https://high-frequency-mri-database-supplementary.readthedocs.io/en/latest/pipeline/common_space.html

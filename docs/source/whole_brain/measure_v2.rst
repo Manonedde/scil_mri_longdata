@@ -1,7 +1,6 @@
 Whole-Bundles measures - BOXPLOT
 =================================
 
-
 Streamlines measure
 ------------------------
 
@@ -12,13 +11,11 @@ Streamlines measure
 MRI quantitative measure
 ------------------------
 
-
 DTI
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
   :file: ../data/WB/DTI_measurement_boxplot.html
-
 
 
 DTI-FW corrected
@@ -33,8 +30,6 @@ FW
 
 .. raw:: html
   :file: ../data/WB/FW_measurement_boxplot.html
-  :width: 500 px
-
 
 
 fODF
@@ -44,13 +39,11 @@ fODF
   :file: ../data/WB/FODF_measurement_boxplot.html
 
 
-
 NODDI
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
   :file: ../data/WB/NODDI_measurement_boxplot.html
-
 
 
 Magnetization transfer image
