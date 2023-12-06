@@ -96,6 +96,10 @@ MTI measures
   :file: ../data/AF/MTI__AF_profile.html
 
 
+
+
+
+
 Profile Measures - Tabs version
 ---------------------------------
 
@@ -106,11 +110,14 @@ Here configuration with tab.
     .. tab:: Volume
 
         Figure html
+
+
         .. raw:: html
           :file: ../data/AF/AF_volume_profile.html
 
 
     .. tab:: DTI
+
 
         .. raw:: html
           :file: ../data/AF/DTI__AF_profile.html
@@ -118,11 +125,13 @@ Here configuration with tab.
 
     .. tab:: DTI-FW
 
+
         .. raw:: html
           :file: ../data/AF/DTI-FW__AF_profile.html
 
 
     .. tab:: FW
+
 
         .. raw:: html
           :file: ../data/AF/FW__AF_profile.html
@@ -130,11 +139,13 @@ Here configuration with tab.
 
     .. tab:: FODF
 
+
         .. raw:: html
           :file: ../data/AF/FODF__AF_profile.html
 
 
     .. tab:: NODDI
+
 
         .. raw:: html
           :file: ../data/AF/NODDI__AF_profile.html
@@ -142,8 +153,11 @@ Here configuration with tab.
 
     .. tab:: MTI
 
+
         .. raw:: html
           :file: ../data/AF/MTI__AF_profile.html
+
+
 
 
 
@@ -155,19 +169,21 @@ over all streamlines and bundle-specific metrics.
 
 .. tabs::
 
-    .. tab:: Bundle
+   .. tab:: Average
 
-        .. csv-table:: Statistics descriptive of Streamlines measures
-           :file: ../data/AF/AF_streamlines_summary.csv
-           :header-rows: 1
+      .. tabs::
 
+         .. tab:: Streamlines
 
-    .. tab:: Measure
+            .. csv-table:: Streamlines stats
+              :file: ../data/AF/AF_streamlines_summary.csv
+              :header-rows: 1
 
-        .. csv-table:: Statistics descriptive of bundle measures
-           :file: ../data/AF/AF_average_summary.csv
-           :header-rows: 1
+         .. tab:: Measures
 
+            .. csv-table:: MRI measurements
+              :file: ../data/AF/AF_average_summary.csv
+              :header-rows: 1
 
    .. tab:: Profiles
 
