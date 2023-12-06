@@ -38,14 +38,16 @@ over all streamlines and bundle-specific metrics.
 
 .. tabs::
 
-    .. tab:: Bundle
+    .. tab:: Sphinx
 
-        stats des metrics shape du bundle.
+        If your project uses Sphinx,
+        we offer a special builder optimized for Sphinx projects.
 
 
-    .. tab:: Measure
+    .. tab:: MkDocs
 
-        Stats des metrics extract du bundle.
+        If your project uses MkDocs,
+        we offer a special builder optimized for MkDocs projects.
 
 
 Heatmap
