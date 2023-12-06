@@ -17,7 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_tabs.tabs', 
+    'sphinx_tabs.tabs',
 ]
 
 exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store']

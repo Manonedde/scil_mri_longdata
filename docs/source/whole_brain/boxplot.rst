@@ -1,4 +1,4 @@
-Whole-Bundles measures - BOXPLOT
+Averaged distribution
 =================================
 
 Streamlines measure

@@ -1,4 +1,4 @@
-Whole-Bundles measures - SCATTERPLOT
+Distribution population
 =====================================
 
 Streamlines measure

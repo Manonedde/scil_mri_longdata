@@ -1,4 +1,4 @@
-Statistic descriptives
+Test fusion tabs and html
 ==========================
 
 
@@ -75,9 +75,16 @@ AF
 
          .. tab:: Plots
 
-
             .. raw:: html
-              :file: ../data/AF/DTI__AF_profile.html
+            :file: ../data/WB/Streamlines_measurement_boxplot.html
+
+            File html figure test.
+
+            .. figure:: bundles_segmentation.png
+               :align: center
+               :width: 700
+
+               Test file png figure.
 
 
 Heatmap
@@ -85,8 +92,14 @@ Heatmap
 
 Association between different MRI measures extracted from AF are evaluated using Pearson's correlation coefficient (r) and evaluated for each session (slider). For better contrast, Pearson correlation coefficients are displayed as absolute values.
 
+.. figure:: ../pipeline/pipelines.png
+   :align: center
+   :width: 700
+
+   Test file png figure.
+
+
+Version html figure test.
 
 .. raw:: html
-  :file: ../data/AF/AF_correlation_map_with_slider.html
-
-  
+  :file: ../data/AF/AF_volume_profile.html
