@@ -72,3 +72,9 @@ AF
             .. csv-table:: Measures by section
               :file: ../data/AF/MTI__profile_summary.csv
               :header-rows: 1
+
+         .. tab:: Plots
+
+            .. raw:: html
+              :file: ../data/AF/DTI__AF_profile.html
+
