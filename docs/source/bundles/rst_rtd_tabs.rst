@@ -53,8 +53,9 @@ Here are some configuration file examples to help you get started.
         we offer a special builder optimized for MkDocs projects.
 
 
-        .. raw:: html
-          :file: ../data/AF/AF_volume_profile.html
+        .. raw:: html frame
+
+            <iframe src="../_static/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Editing the template
