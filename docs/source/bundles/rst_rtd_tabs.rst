@@ -47,13 +47,13 @@ Here are some configuration file examples to help you get started.
           :width: 700
 
 
-    .. tab:: HTML
+    .. tab:: HTML true
 
         If your project uses MkDocs,
         we offer a special builder optimized for MkDocs projects.
 
 
-        .. raw:: html frame
+        .. raw:: html
 
             <iframe src="../_static/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
