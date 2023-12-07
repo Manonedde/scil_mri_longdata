@@ -23,7 +23,7 @@ Tools used for images processing are listed below and available on `SCIL github`
    - `NODDI flow`_
    - `Freewater flow`_
    - `ihMT flow`_
-   - `DMRIqc flow`_
+   - `DMRI QC Flow`_
    - `RBX flow`_
    - `Tractometry flow`_
 
@@ -37,7 +37,7 @@ Edde M., Theaud G., [...] and Descoteaux M.
 High-frequency longitudinal white matter diffusion- & myelin-based MRI database: 
 reliability and variability, currently. https://onlinelibrary.wiley.com/doi/10.1002/hbm.26310
 
-:download:`PDF<./download/Edde2023_HBM_HighFrequencyLongitudinal.pdf>`
+:download:`PDF<./data/Edde2023_HBM_HighFrequencyLongitudinal.pdf>`
 
 Results of consistency analyzes could also be find `here`_.
 
@@ -47,12 +47,13 @@ Results of consistency analyzes could also be find `here`_.
  .. _NODDI Flow: https://github.com/scilus/noddi_flow
  .. _Freewater Flow: https://github.com/scilus/freewater_flow
  .. _ihMT Flow: https://github.com/scilus/ihmt_flow
- .. _RecobundlesX Flow: https://github.com/scilus/rbx_flow
+ .. _RBX flow: https://github.com/scilus/rbx_flow
  .. _DMRI QC Flow: https://github.com/scilus/dmriqc_flow
  .. _SCIL github: https://github.com/scilus
  .. _SCIL: http://scil.dinf.usherbrooke.ca/
  .. _SCIL documentation: https://scil-documentation.readthedocs.io/
  .. _scilpy: https://github.com/scilus/scilpy
+ .. _Tractometry flow: https://github.com/scilus/tractometry_flow
 
 
 .. toctree::
@@ -81,7 +82,6 @@ Results of consistency analyzes could also be find `here`_.
   :caption: Bundles
 
   bundles/af
-  bundles/af2
 
 .. toctree::
   :maxdepth: 1

@@ -25,8 +25,9 @@ Bundle-streamline measures
 Bundle-averaged
   For each measures, **mean** is computed by averaging the measures value of all voxels occupied by the bundle.
 
-  .. figure:: pipelines.jpg
+  .. figure:: pipelines.png
      :align: center
+     :scale: 100%
 
      Figure 1. Representation of the pipelines used for the evaluation of the white matter bundles.
 
@@ -36,19 +37,20 @@ Bundle-profile
 
   .. figure:: bundles_profiling.png
      :align: center
-     :width: 700
+     :scale: 100%
 
      Figure 2. Representation of  white matter major bundle models resampled  into 20 segments for illustration. Left and right have been merged. The colors displayed on the bundles represent the section numbers from 1 (blue) to 20 (red).
 
 .. note::
 
-   Average measurement values can be calculated either by session (sessions 1 to 5), or by averaging all sessions (average).
+   Average measurement values can be computed either by session (sessions 1 to 5), or by averaging all sessions (average).
 
 
 Visualization
 ----------------
 
-Results are displayed using `Plotly`_'s interactive plots. Click on the legend to select and/or deselect plot elements. Colors represent beam or MRI measurements.
+Results are displayed using `Plotly`_'s interactive plots. Click on the legend to select and/or deselect plot elements.
+Colors represent bundle or MRI measurements.
 
 For most figures, the slider can represent :
 
@@ -57,9 +59,9 @@ For most figures, the slider can represent :
 
  .. _Plotly: https://plotly.com/
 
- Streamlines metrics generated
+Streamlines metrics generated
 -----------------------------
-Table describe all streamlines metrics which will be generated for each bundle.
+Table describe all streamlines metrics generated for each bundle.
 
 +-----------------+-----------------------+
 | Tools           | Streamline metrics    |
@@ -73,7 +75,7 @@ Table describe all streamlines metrics which will be generated for each bundle.
 
 MRI measurements generated
 -------------------------------
-Table describe all measure maps which will be evaluated.
+Table describe all measure maps generated.
 
 +-------------------------------+-----------------------------------------------+
 | Tools                         | MRI measurements (mean)                       | 
@@ -116,6 +118,7 @@ Table describe all measure maps which will be evaluated.
 +-------------------------------+-----------------------------------------------+
 |                               | MT saturation (MTsat)                         |
 +-------------------------------+-----------------------------------------------+
+
 
 With description of metrics is usefull ? 
 

@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Myelo-Inferno MRI database'
+project = 'SCIL longitudinal MRI database'
 copyright = '2023, SCIL'
 author = 'Edde'
 
@@ -40,11 +40,7 @@ html_context = {
         (
             '<i class="fa fa-github fa-fw"></i> GitHub',
             "https://github.com/scilus",
-        ),
-        (
-            '<i class="fa fa-file-text fa-fw"></i> Citation',
-            "https://doi.org/10.5281/zenodo.111111",
-        ),
+        )
     ],
 }
 

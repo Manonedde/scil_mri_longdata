@@ -7,13 +7,13 @@ Imaging Protocol
 Twenty healthy adults (mean age 36 years, age range 29-46 y.o.(SD = 4.7),
 4 men and 16 women) were scan at the Centre Hospitalier Universitaire
 of Sherbrooke (CHUS) using a clinical 3T MRI scanner (Ingenia, Philips
-Healthcare, Best, Netherlands) with a 32-channel head coil. For each participant, 
+Healthcare, Best, Netherlands) with a 32-channel head coil. For each participant,
 images were acquired at approximately the same time of day to avoid potential diurnal effects (i.e., a morning participant had all sessions in the morning, with a tolerated 2–3-hour variation). 
 The study was approved by the local ethics committee (Comité d’éthique de la recherche du CHUS) and all participants gave written informed consent.
 
-.. figure:: data_collection.jpg
+.. figure:: data_collection.png
    :align: center
-   :scale: 120%
+   :scale: 110%
 
    **3DT1** - Anatomical 3D T1-weighted, **DWI** - Diffusion weighted Images, **reverse b0** - Reverse phase encoding B0, **ihMT** - inhomogeneous magnetization transfer.
 
@@ -126,31 +126,31 @@ Example of datasets for one subject
 
 ** Anatomical image **
 
-+---------------------+
-|        3D-T1w       | 
-+=====================+
-| .. image:: 3DT1.gif |
-|    :width: 200      |
-+---------------------+
-
++---------------------------------+
+|              3D-T1w             | 
++=================================+
+| .. image:: 3DT1.gif             |
+|    :width: 200                  |
++---------------------------------+
 
 ** Diffusion images **
 
-+-------------------+----------------------+----------------------+----------------------+----------------------+
-|      DWI - b0     | DWI - b value = 300  | DWI - b value = 1000 | DWI - b value = 2000 |  DWI - Reverse B0    |
-+===================+======================+========================+========================+==================+
-| .. image:: b0.gif |  .. image:: b300.gif | .. image:: b1000.gif | .. image:: b2000.gif | .. image:: revb0.gif |
-|    :width: 200    |    :width: 200       |    :width: 200       |    :width: 200       |    :width: 200       |
-+-------------------+----------------------+----------------------+----------------------+----------------------+
++----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
+|        DWI - b0            |    DWI - b value = 300     |    DWI - b value = 1000    |    DWI - b value = 2000    |      DWI - Reverse B0      |
++============================+============================+============================+============================+============================+
+| .. image:: b0.gif          |  .. image:: b300.gif       | .. image:: b1000.gif       | .. image:: b2000.gif       | .. image:: epi.gif         |
+|    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |
++----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 
 ** ihMT images **
 
-+----------------------+--------------------+------------- -------+----------------------+----------------------+--------------------+
-|       MT-Off         |   Positive (pos)   |   Negative (neg)    |  Alternative pos-neg | Alternative neg-pos  |    T1w ihMT        |
-+======================+====================+=====================+======================+======================+====================+
-| .. image:: mtoff.gif | .. image:: pos.gif |  .. image:: neg.gif | .. image:: altpn.gif | .. image:: altnp.gif | .. image:: T1w.gif |
-|    :width: 200       |    :width: 200     |    :width: 200      |    :width: 200       |    :width: 200       |    :width: 200     |
-+----------------------+--------------------+---------------------+----------------------+----------------------+--------------------+
++--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
+|          MT-Off          |     Positive (pos)    |    Negative (neg)     |  Alternative pos-neg  | Alternative neg-pos   |      T1w ihMT        |
++==========================+=======================+=======================+=======================+=======================+======================+
+| .. image:: mtoff.gif     | .. image:: pos.gif    |  .. image:: neg.gif   | .. image:: altpn.gif  | .. image:: altnp.gif  | .. image:: T1w.gif   |
+|    :width: 200           |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200       |
++--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
+
 
 
  .. _DMRI QC Flow: https://github.com/scilus/dmriqc_flow
