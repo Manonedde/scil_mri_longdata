@@ -1,5 +1,9 @@
-Distribution population
-=====================================
+Detailed distribution 
+==========================
+
+The scatter plot display the MRI measurements for all sessions and each bundle. Each point represents the MRI measurement for one participant and one session. Move the cursor over the point to display the value.
+Colors represent the bundle.
+
 
 Streamlines measure
 ------------------------

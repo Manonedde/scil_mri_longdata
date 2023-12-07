@@ -1,5 +1,9 @@
-Averaged distribution
-=================================
+Summary of distribution
+==========================
+
+The boxplot summarizes the values for all sessions for each MRI measurement and each bundle. Move the cursor over the boxplots to display statistical information (L-estimator), including lower and upper closure, median, Q1 and Q3 as well as min and max. The whiskers extend to the most extreme data points not considered outliers.
+Colors represent the bundle.
+
 
 Streamlines measure
 ------------------------

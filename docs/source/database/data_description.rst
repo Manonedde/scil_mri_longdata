@@ -5,25 +5,23 @@ Imaging Protocol
 -----------------
 
 Twenty healthy adults (mean age 36 years, age range 29-46 y.o.(SD = 4.7),
-4 men and 17 women) were scan at the Centre Hospitalier Universitaire
+4 men and 16 women) were scan at the Centre Hospitalier Universitaire
 of Sherbrooke (CHUS) using a clinical 3T MRI scanner (Ingenia, Philips
-Healthcare, Best, Netherlands) with a 32-channel head coil.
-
-For each participant, images were acquired at approximately the same time of day 
-to avoid potential diurnal effects (i.e., a morning participant had all sessions in the morning, 
-with a tolerated 2–3-hour variation). 
-
+Healthcare, Best, Netherlands) with a 32-channel head coil. For each participant, 
+images were acquired at approximately the same time of day to avoid potential diurnal effects (i.e., a morning participant had all sessions in the morning, with a tolerated 2–3-hour variation). 
+The study was approved by the local ethics committee (Comité d’éthique de la recherche du CHUS) and all participants gave written informed consent.
 
 .. figure:: data_collection.jpg
    :align: center
-   :scale: 100%
+   :scale: 120%
 
-   3DT1 - Anatomical 3D T1-weighted, DWI - Diffusion weighted Images, reverse b0 - Reverse phase encoding B0, ihMT - inhomogeneous magnetization transfer
-
+   **3DT1** - Anatomical 3D T1-weighted, **DWI** - Diffusion weighted Images, **reverse b0** - Reverse phase encoding B0, **ihMT** - inhomogeneous magnetization transfer.
 
 
 MRI acquisition parameters
 ---------------------------
+
+The imaging protocol included the following sequences:
 
 +--------------------------------+-------------+-------------+-------------+----------------+----------------+
 |    Parameters / Sequences      |      T1     |     DWI     |  Reverse B0 |      ihMT      |     T1 ihMT    |
@@ -63,12 +61,10 @@ MRI acquisition parameters
 +--------------------------------+-------------+-------------+-------------+----------------+----------------+
 *The directions are specified in coordinates of the patient (LPH).
 
-All MRI data acquisitions were aligned on the anterior commissure-posterior commissure plan (AC-PC)
-
+All MRI data acquisitions were aligned on the anterior commissure-posterior commissure plan (AC-PC).
 An example of bvec and bval file for DWI can be downloaded here:
 
- :download:`bval bvec files<../download/bval_bvec_files.zip>`
-
+ :download:`bval bvec files<../data/mri/bval_bvec_files.zip>`
 
 Data conversion: DICOM to BIDS
 ------------------------------
@@ -87,7 +83,6 @@ An example of the data structure for one subject is shown below:
     ├── sub-001_ses-3
     ├── sub-001_ses-4
     ├── sub-001_ses-5
-    ├── sub-002_ses-1
     ├── ...
     ├── sub-003_ses-1
         │
@@ -110,11 +105,8 @@ An example of the data structure for one subject is shown below:
             ├── sub-003-1_dwi.bvec
             ├── sub-003-1_dwi.json
             ├── sub-003-1_dwi.nii.gz
-            ├── sub-003-1_b0.json
-            ├── sub-003-1_b0.nii.gz
             ├── sub-003-1_rev-b0.json
             └── sub-003-1_rev-b0.nii.gz
-
 
 
 To convert our DICOM data folder to the compatible BIDS structure, we used
@@ -124,43 +116,41 @@ To convert our DICOM data folder to the compatible BIDS structure, we used
 
   dcm2bids -d DICOM_folder -p id_subject -c config.txt -o sub-id
 
-
 Quality Control raw data
 ------------------------
 
 Quality control of raw data was performed using DMRIQC flow `DMRI QC Flow`_.
-
 
 Example of datasets for one subject
 -----------------------------------
 
 ** Anatomical image **
 
-+---------------------------------+
-|              3D-T1w             | 
-+=================================+
-| .. image:: 3DT1.png             |
-|    :width: 200                  |
-+---------------------------------+
++---------------------+
+|        3D-T1w       | 
++=====================+
+| .. image:: 3DT1.gif |
+|    :width: 200      |
++---------------------+
 
 
 ** Diffusion images **
 
-+----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
-|        DWI - b0            |    DWI - b value = 300     |    DWI - b value = 1000    |    DWI - b value = 2000    |      DWI - Reverse B0      |
-+============================+============================+============================+============================+============================+
-| .. image:: dwiB0.png       |  .. image:: b300.gif       | .. image:: b1000.gif       | .. image:: b2000.gif       | .. image:: revB0.png       |
-|    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |
-+----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
++-------------------+----------------------+----------------------+----------------------+----------------------+
+|      DWI - b0     | DWI - b value = 300  | DWI - b value = 1000 | DWI - b value = 2000 |  DWI - Reverse B0    |
++===================+======================+========================+========================+==================+
+| .. image:: b0.gif |  .. image:: b300.gif | .. image:: b1000.gif | .. image:: b2000.gif | .. image:: revb0.gif |
+|    :width: 200    |    :width: 200       |    :width: 200       |    :width: 200       |    :width: 200       |
++-------------------+----------------------+----------------------+----------------------+----------------------+
 
 ** ihMT images **
 
-+--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
-|          MT-Off          |     Positive (pos)    |    Negative (neg)     |  Alternative pos-neg  | Alternative neg-pos   |      T1w ihMT        |
-+==========================+=======================+=======================+=======================+=======================+======================+
-| .. image:: ioff.png      | .. image:: ipos.png   |  .. image:: ineg.png  | .. image:: ialtpn.png | .. image:: ialtnp.png | .. image:: iT1w.png  |
-|    :width: 200           |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200       |
-+--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
++----------------------+--------------------+------------- -------+----------------------+----------------------+--------------------+
+|       MT-Off         |   Positive (pos)   |   Negative (neg)    |  Alternative pos-neg | Alternative neg-pos  |    T1w ihMT        |
++======================+====================+=====================+======================+======================+====================+
+| .. image:: mtoff.gif | .. image:: pos.gif |  .. image:: neg.gif | .. image:: altpn.gif | .. image:: altnp.gif | .. image:: T1w.gif |
+|    :width: 200       |    :width: 200     |    :width: 200      |    :width: 200       |    :width: 200       |    :width: 200     |
++----------------------+--------------------+---------------------+----------------------+----------------------+--------------------+
 
 
  .. _DMRI QC Flow: https://github.com/scilus/dmriqc_flow

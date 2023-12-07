@@ -59,12 +59,11 @@ Results of consistency analyzes could also be find `here`_.
 
 
 
-
 .. toctree::
    :maxdepth: 1
-   :caption: Data
+   :caption: Database
 
-   data/data_description
+   database/data_description
 
 .. toctree::
    :maxdepth: 1
@@ -75,16 +74,22 @@ Results of consistency analyzes could also be find `here`_.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Results
+   :caption: Whole brain
 
-   results/average_maps
-   results/measure_v2
-   results/measure
+   whole_brain/average_maps
+   whole_brain/scatter
+   whole_brain/boxplot
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Download
+  :maxdepth: 1
+  :caption: Bundles
 
-   download/download_data
+  bundles/af
+  bundles/af2
 
+.. toctree::
+  :maxdepth: 1
+  :caption: Download
+
+  data/download_data
 

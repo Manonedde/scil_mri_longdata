@@ -34,6 +34,19 @@ sphinx_tabs_valid_builders = ['linkcheck']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_context = {
+    "sidebar_external_links_caption": "Links",
+    "sidebar_external_links": [
+        (
+            '<i class="fa fa-github fa-fw"></i> GitHub',
+            "https://github.com/scilus",
+        ),
+        (
+            '<i class="fa fa-file-text fa-fw"></i> Citation',
+            "https://doi.org/10.5281/zenodo.111111",
+        ),
+    ],
+}
 
 
 html_theme_options = {
