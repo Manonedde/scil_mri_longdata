@@ -1,7 +1,7 @@
 Test full AF and tab plots
 ==========================
 
-.. figure:: ../data/AF/AF.gif
+.. figure:: ../_static/AF/AF.gif
     :align: center
     :figwidth: 60%
 
@@ -14,9 +14,9 @@ Heatmap
 Association between different MRI measures extracted from AF are evaluated using Pearson's correlation coefficient (r) and evaluated for each session (slider). For better contrast, Pearson correlation coefficients are displayed as absolute values.
 
 
-.. raw:: html
+.. raw:: html frame
 
-    <iframe src="../data/AF/AF_correlation_map_with_slider.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/AF_correlation_map_with_slider.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Correlations
@@ -27,7 +27,7 @@ Here we use a scatterplot with a trend line to provide more information about th
 
 .. raw:: html
 
-    <iframe src="../data/AF/AF_correlation_plots.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/AF_correlation_plots.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Whole-Bundle Measures
@@ -40,7 +40,7 @@ For ease of reading, RD, MD and AD values are expressed in x10-3 and ihMTsat val
 
 .. raw:: html 
 
-    <iframe src="../data/AF/AF_boxplot_measures.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/AF_boxplot_measures.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Volume by sections
@@ -48,7 +48,7 @@ Volume by sections
 
 .. raw:: html
 
-    <iframe src="../data/AF/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 DTI measures
@@ -57,7 +57,7 @@ DTI measures
 
 .. raw:: html
 
-    <iframe src="../data/AF/DTI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/DTI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 DTI-FW measures
@@ -66,7 +66,7 @@ DTI-FW measures
 
 .. raw:: html
 
-    <iframe src="../data/AF/DTI-FW__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/DTI-FW__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 FW measures
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,14 +74,14 @@ FW measures
 
 .. raw:: html
 
-    <iframe src="../data/AF/FW__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/FW__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 FODF measures
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
-    <iframe src="../data/AF/FODF__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/FODF__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 NODDI measures
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -89,7 +89,7 @@ NODDI measures
 
 .. raw:: html
 
-    <iframe src="../data/AF/NODDI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/NODDI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 MTI measures
@@ -98,7 +98,7 @@ MTI measures
 
 .. raw:: html
 
-    <iframe src="../data/AF/MTI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/MTI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Statistic descriptives
@@ -118,13 +118,13 @@ over all streamlines and bundle-specific metrics.
          .. tab:: Streamlines
 
             .. csv-table:: Streamlines stats
-              :file: ../data/AF/AF_streamlines_summary.csv
+              :file: ../_static/AF/AF_streamlines_summary.csv
               :header-rows: 1
 
          .. tab:: Measures
 
             .. csv-table:: MRI measurements
-              :file: ../data/AF/AF_average_summary.csv
+              :file: ../_static/AF/AF_average_summary.csv
               :header-rows: 1
 
    .. tab:: Profiles
@@ -134,47 +134,47 @@ over all streamlines and bundle-specific metrics.
          .. tab:: Volume
 
             .. csv-table:: Volume by section
-              :file: ../data/AF/AF__profile_volume_summary.csv
+              :file: ../_static/AF/AF__profile_volume_summary.csv
               :header-rows: 1
 
          .. tab:: DTI
 
             .. csv-table:: Measures by section
-              :file: ../data/AF/DTI__profile_summary.csv
+              :file: ../_static/AF/DTI__profile_summary.csv
               :header-rows: 1
 
          .. tab:: DTI-FW
 
             .. csv-table:: Measures by section
-              :file: ../data/AF/DTI-FW__profile_summary.csv
+              :file: ../_static/AF/DTI-FW__profile_summary.csv
               :header-rows: 1
 
          .. tab:: FW
 
             .. csv-table:: Measures by section
-              :file: ../data/AF/FW__profile_summary.csv
+              :file: ../_static/AF/FW__profile_summary.csv
               :header-rows: 1
 
          .. tab:: FODF
 
             .. csv-table:: Measures by section
-              :file: ../data/AF/FODF__profile_summary.csv
+              :file: ../_static/AF/FODF__profile_summary.csv
               :header-rows: 1
 
          .. tab:: NODDI
 
             .. csv-table:: Measures by section
-              :file: ../data/AF/NODDI__profile_summary.csv
+              :file: ../_static/AF/NODDI__profile_summary.csv
               :header-rows: 1
 
          .. tab:: MTI
 
             .. csv-table:: Measures by section
-              :file: ../data/AF/MTI__profile_summary.csv
+              :file: ../_static/AF/MTI__profile_summary.csv
               :header-rows: 1
 
          .. tab:: Plots MTI test
 
             .. raw:: html
 
-                <iframe src="../data/AF/MTI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/MTI__AF_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
