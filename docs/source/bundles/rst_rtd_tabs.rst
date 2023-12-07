@@ -72,7 +72,7 @@ The configuration file probably needs some adjustments to accommodate exactly yo
 
 Version html figure test.
 
-.. raw:: html
+.. raw:: html frame
 
     <iframe src="../_static/AF_volume_profile.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
