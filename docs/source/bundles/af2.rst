@@ -13,10 +13,9 @@ Heatmap with frame
 
 Association between different MRI measures extracted from AF are evaluated using Pearson's correlation coefficient (r) and evaluated for each session (slider). For better contrast, Pearson correlation coefficients are displayed as absolute values.
 
-
 .. raw:: html frame
 
-    <iframe src="../_static/AF/AF_correlation_map_with_slider.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF_correlation_map_with_slider.html"  width=800 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Correlations without frame
