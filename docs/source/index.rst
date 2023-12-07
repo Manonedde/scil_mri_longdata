@@ -36,6 +36,7 @@ The tools described and used are developed by the Sherbrooke Connectivity Imagin
   :caption: Bundles
 
   bundles/af
+  bundles/af2
   bundles/stats_desc
   bundles/test_fusion
   bundles/rst_rtd_tabs
