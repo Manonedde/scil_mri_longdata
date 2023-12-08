@@ -28,29 +28,34 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
-templates_path = ['_templates']
 sphinx_tabs_valid_builders = ['linkcheck']
+templates_path = ['_templates']
+
 
 # -- Options for HTML output
-
 html_theme = 'sphinx_rtd_theme'
+
 html_theme_options = {
     "rightsidebar": "False",
     "relbarbgcolor": "black"
 }
+
 html_context = {
     "sidebar_external_links_caption": "Links",
     "sidebar_external_links": [
         (
-            '<i class="fa fa-github fa-fw"></i> GitHub',
+            '<i class="fa fa-github fa-fw"></i> Scil',
             "https://github.com/scilus",
         )
     ],
 }
 
+html_logo = "_static/scil_logo.png"
+#original_sidebar : ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']
+#html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+
 html_static_path = ['_static']
-html_css_files = [
-    'custom.css',  # overrides for width size
+html_css_files = ['custom.css',  # overrides for width size
 ]
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
