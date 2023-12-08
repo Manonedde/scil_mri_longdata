@@ -11,8 +11,9 @@ Healthcare, Best, Netherlands) with a 32-channel head coil. For each participant
 images were acquired at approximately the same time of day to avoid potential diurnal effects (i.e., a morning participant had all sessions in the morning, with a tolerated 2–3-hour variation). 
 The study was approved by the local ethics committee (Comité d’éthique de la recherche du CHUS) and all participants gave written informed consent.
 
-.. figure:: data_collection.png
+.. figure:: Figure_data_collection.png
    :align: center
+   :width: 800
 
    **3DT1** - Anatomical 3D T1-weighted, **DWI** - Diffusion weighted Images, **reverse b0** - Reverse phase encoding B0, **ihMT** - inhomogeneous magnetization transfer.
 

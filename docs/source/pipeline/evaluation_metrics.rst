@@ -29,6 +29,7 @@ Bundle-averaged
 
   .. figure:: Figure_data_extraction_streamlines_average.png
      :align: center
+     :width: 500
 
      Figure 1. Representation of the extraction of Bundle-streamlines and Bundle-average measures.
 
@@ -46,6 +47,7 @@ Bundle-profile
 
   .. figure:: Figure_data_extraction_profile.png
      :align: center
+     :width: 500
 
 .. note::
 
