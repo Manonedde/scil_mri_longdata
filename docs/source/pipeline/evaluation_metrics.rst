@@ -1,5 +1,5 @@
-WM Bundles Evaluation
-========================
+Bundles Evaluation
+======================
 
 For each subject and session, the evaluation of the white matter bundles 
 measures is performed using the `Tractometry Flow`_ pipeline.
@@ -8,43 +8,48 @@ Three types of measurements are extracted for each bundle:
 
 - Bundle-streamline measures
 - Bundle-averaged
-- Bundle-profile or track-profile
+- Bundle-profile (or track-profile)
 
-.. note::
+
+Bundle-streamline measures
+  Three measures are extracted from the streamlines for each bundle (Figure 1):
+
+   - The bundle **volume**, in mm3, is estimated by counting the number of voxels occupied by the bundle and multiplying it by the volume of a single voxel.
+   - The average **length**, em mm, is estimated by averaging the length of all the streamlines of the bundle.
+   - The streamlines **count**, i.e. the number of streamlines in a bundle.
+  
+  .. note::
 
    `Tractometry Flow`_ pipeline remove of any streamline that are out of the 
    volume, no negative coordinate and no above volume dimension coordinate are possible.
 
- .. _Tractometry Flow: https://github.com/scilus/tractometry_flow
-
-Bundle-streamline measures
-  Three measures of streamlines are extracted for each bundle:
-
-   - The bundle **volume**, in mm3, is estimated by counting the number of voxels occupied by the bundle and multiplying it by the volume of a single voxel.
-   - The average **length**, em mm, is estimated by averaging the length of all the streamlines of the bundle.
-   - The **number** of streamlines in a bundle (**count**).
 
 Bundle-averaged
-  For each measures, **mean** is computed by averaging the measures value of all voxels occupied by the bundle.
+  For each measures, **mean** is computed by averaging the measures value of all voxels occupied by the bundle (Figure 1).
 
-  .. figure:: pipelines.png
+  .. figure:: Figure_data_extraction_streamlines_average.pdf
      :align: center
-     :scale: 100%
 
-     Figure 1. Representation of the pipelines used for the evaluation of the white matter bundles.
+     Figure 1. Representation of the extraction of Bundle-streamlines and Bundle-average measures.
 
 Bundle-profile
   To generate the bundle-profile (also called track-profiles), `Tractometry Flow`_ first compute a centroid which is then resampled to **20 equidistant points**. Each voxel will have the section label (1 to 20) of its closest centroid point (Figure 2).
-  For each section, **mean** is computed by averaging the measures value of all voxels occupied by the section (label, Figure 1). Finally, a tract profile is extracted for each combination of measurements and bundles.
 
   .. figure:: bundles_profiling.png
      :align: center
 
      Figure 2. Representation of  white matter major bundle models resampled  into 20 segments for illustration. Left and right have been merged. The colors displayed on the bundles represent the section numbers from 1 (blue) to 20 (red).
 
+  For each section, **mean** is computed by averaging the measures value of all voxels occupied by the section (label, Figure 1). 
+  Finally, a tract profile is extracted for each combination of measurements and bundles.
+
+  .. figure:: Figure_data_extraction_profile.pdf
+     :align: center
+
 .. note::
 
-   Average measurement values can be computed either by session (sessions 1 to 5), or by averaging all sessions (average).
+   Mean measurement values can be computed either by session i.e. including all subjects for one session, 
+   or by averaging all sessions and all subjects (average).
 
 
 Visualization
@@ -55,10 +60,12 @@ Colors represent bundle or MRI measurements.
 
 For most figures, the slider can represent :
 
- - sessions (Session1, Session 2, ...) and/or the average of all sessions (mean)
+ - sessions (Session1, Session 2, ...) and/or the average of all sessions (average)
  - MRI measurements
 
  .. _Plotly: https://plotly.com/
+ .. _Tractometry Flow: https://github.com/scilus/tractometry_flow
+
 
 Streamlines metrics generated
 -----------------------------
@@ -84,29 +91,29 @@ Table describe all measure maps generated.
 |                               | Fractional anisotropy (FA)                    |
 +                               +-----------------------------------------------+
 |                               | Mean Diffusivity (MD)                         |
-+      Tractoflow - DTI         +-----------------------------------------------+
++  Tractoflow - DTI             +-----------------------------------------------+
 |                               | Radial Diffusivity (RD)                       |
 +                               +-----------------------------------------------+
 |                               | Axial Diffusivity (AD)                        |
 +-------------------------------+-----------------------------------------------+
 |                               | Fractional anisotropy tissue (FA-FWcorrected) |
 +                               +-----------------------------------------------+
-|        Freewater Flow         | Mean Diffusivity tissue (MD-FWcorrected)      |
-+       DTI-FW corrected        +-----------------------------------------------+
+|  Freewater Flow               | Mean Diffusivity tissue (MD-FWcorrected)      |
++  DTI-FW corrected             +-----------------------------------------------+
 |                               | Radial Diffusivity tissue (RD-FWcorrected)    |
 +                               +-----------------------------------------------+
 |                               | Axial Diffusivity tissue (AD-FWcorrected)     |
 +-------------------------------+-----------------------------------------------+
-|     Freewater Flow - FW       | Free water (FW)                               |
+|  Freewater Flow - FW          | Free water (FW)                               |
 +-------------------------------+-----------------------------------------------+
 |                               | Total Apparent fiber density (AFD total)      |
-+      Tractoflow - FODF        +-----------------------------------------------+
++  Tractoflow - FODF            +-----------------------------------------------+
 |                               | Number of fober direction (NuFO)              |
 +-------------------------------+-----------------------------------------------+
 |                               | Intra-cellular volume fraction (ICvf)         |
 +                               +-----------------------------------------------+
 |                               | Extra-cellular volume fraction (ECvf)         |
-+          NODDI Flow           +-----------------------------------------------+
++  NODDI Flow                   +-----------------------------------------------+
 |                               | Isotropic volume fraction (ISOvf)             |
 +                               +-----------------------------------------------+
 |                               | Orientation direction (OD)                    |
@@ -114,7 +121,7 @@ Table describe all measure maps generated.
 |                               | ihMT ratio (ihMTR)                            |
 +                               +-----------------------------------------------+
 |                               | ihMT delta R1 saturation (ihMTsat)            |
-+           ihMT Flow           +-----------------------------------------------+
++  ihMT Flow                    +-----------------------------------------------+
 |                               | MT ratio (MTR)                                |
 +                               +-----------------------------------------------+
 |                               | MT saturation (MTsat)                         |

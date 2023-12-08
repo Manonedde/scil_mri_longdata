@@ -1,7 +1,9 @@
 Detailed distribution 
 ==========================
 
-The scatter plot display the MRI measurements for all sessions and each bundle. Each point represents the MRI measurement for one participant and one session. Move the cursor over the point to display the value.
+The scatter plot display the MRI measurements for all sessions and each bundle. 
+Each point represents the MRI measurement for one participant and one session. 
+Move the cursor over the point to display the value.
 Colors represent the bundle.
 
 
@@ -9,7 +11,7 @@ Streamlines measure
 ------------------------
 
 .. raw:: html
-  :file: ../data/WB/Streamlines_measurement_distribution.html
+  :file: ../_static/WB/Streamlines_measurement_distribution.html
 
 
 MRI quantitative measure
@@ -19,41 +21,41 @@ DTI
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/DTI_measurement_distribution.html
+  :file: ../_static/WB/DTI_measurement_distribution.html
 
 
 DTI-FW corrected
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/DTI-FW_measurement_distribution.html
+  :file: ../_static/WB/DTI-FW_measurement_distribution.html
 
 
 FW
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/FW_measurement_distribution.html
+  :file: ../_static/WB/FW_measurement_distribution.html
 
 
 fODF
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/FODF_measurement_distribution.html
+  :file: ../_static/WB/FODF_measurement_distribution.html
 
 
 NODDI
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/NODDI_measurement_distribution.html
+  :file: ../_static/WB/NODDI_measurement_distribution.html
 
 
 Magnetization transfer image
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/MTI_measurement_distribution.html
+  :file: ../_static/WB/MTI_measurement_distribution.html
 
 

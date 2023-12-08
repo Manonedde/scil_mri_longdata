@@ -34,6 +34,10 @@ sphinx_tabs_valid_builders = ['linkcheck']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    "rightsidebar": "False",
+    "relbarbgcolor": "black"
+}
 html_context = {
     "sidebar_external_links_caption": "Links",
     "sidebar_external_links": [
@@ -44,15 +48,9 @@ html_context = {
     ],
 }
 
-
-html_theme_options = {
-    "rightsidebar": "False",
-    "relbarbgcolor": "black"
-}
-
 html_static_path = ['_static']
 html_css_files = [
-    'my_style.css',  # overrides for width size
+    'custom.css',  # overrides for width size
 ]
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
