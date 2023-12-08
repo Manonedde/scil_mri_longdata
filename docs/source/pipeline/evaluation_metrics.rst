@@ -1,17 +1,19 @@
 WM Bundles Evaluation
 ========================
 
-For each bundle, subject and session, 3 types of measurements are extracted using the tractometry flow pipeline:
+For each subject and session, the evaluation of the white matter bundles 
+measures is performed using the `Tractometry Flow`_ pipeline.
 
+Three types of measurements are extracted for each bundle:
+
+- Bundle-streamline measures
 - Bundle-averaged
 - Bundle-profile or track-profile
-- Bundle-streamline measures
-
-The evaluation of the white matter bundles measures is performed using the `Tractometry Flow`_ pipeline.
 
 .. note::
 
-   `Tractometry Flow`_ pipeline remove of any streamline that are out of the volume, no negative coordinate and no above volume dimension coordinate are possible.
+   `Tractometry Flow`_ pipeline remove of any streamline that are out of the 
+   volume, no negative coordinate and no above volume dimension coordinate are possible.
 
  .. _Tractometry Flow: https://github.com/scilus/tractometry_flow
 
@@ -37,7 +39,6 @@ Bundle-profile
 
   .. figure:: bundles_profiling.png
      :align: center
-     :scale: 100%
 
      Figure 2. Representation of  white matter major bundle models resampled  into 20 segments for illustration. Left and right have been merged. The colors displayed on the bundles represent the section numbers from 1 (blue) to 20 (red).
 
@@ -63,102 +64,102 @@ Streamlines metrics generated
 -----------------------------
 Table describe all streamlines metrics generated for each bundle.
 
-+-----------------+-----------------------+
-| Tools           | Streamline metrics    |
-+=================+=======================+
-| RBXflow         | Count (n)             |
-+-----------------+-----------------------+
-|                 | Volume (mm3)          |
-+-----------------+-----------------------+
-|                 | Length (mm)           |
-+-----------------+-----------------------+
++-------------+---------------------+
+|    Tools    | Streamline metrics  |
++=============+=====================+
+|             | Volume (mm3)        |
++             +---------------------+
+|   RBXflow   | Count (n)           |
++             +---------------------+
+|             | Length (mm)         |
++-------------+---------------------+
 
 MRI measurements generated
 -------------------------------
 Table describe all measure maps generated.
 
 +-------------------------------+-----------------------------------------------+
-| Tools                         | MRI measurements (mean)                       | 
+|            Tools              | MRI measurements (mean)                       |
 +===============================+===============================================+
-| Tractoflow - DTI              | Fractional anisotropy (FA)                    |
-+-------------------------------+-----------------------------------------------+
+|                               | Fractional anisotropy (FA)                    |
++                               +-----------------------------------------------+
 |                               | Mean Diffusivity (MD)                         |
-+-------------------------------+-----------------------------------------------+
++      Tractoflow - DTI         +-----------------------------------------------+
 |                               | Radial Diffusivity (RD)                       |
-+-------------------------------+-----------------------------------------------+
++                               +-----------------------------------------------+
 |                               | Axial Diffusivity (AD)                        |
 +-------------------------------+-----------------------------------------------+
-| Freewater - DTI-FW corrected  | Fractional anisotropy tissue (FA-FWcorrected) |
-+-------------------------------+-----------------------------------------------+
-|                               | Mean Diffusivity tissue (MD-FWcorrected)      |
-+-------------------------------+-----------------------------------------------+
+|                               | Fractional anisotropy tissue (FA-FWcorrected) |
++                               +-----------------------------------------------+
+|        Freewater Flow         | Mean Diffusivity tissue (MD-FWcorrected)      |
++       DTI-FW corrected        +-----------------------------------------------+
 |                               | Radial Diffusivity tissue (RD-FWcorrected)    |
-+-------------------------------+-----------------------------------------------+
++                               +-----------------------------------------------+
 |                               | Axial Diffusivity tissue (AD-FWcorrected)     |
 +-------------------------------+-----------------------------------------------+
-| Freewater flow - FW           | Free water (FW)                               |
+|     Freewater Flow - FW       | Free water (FW)                               |
 +-------------------------------+-----------------------------------------------+
-| Tractoflow - FODF             | Total Apparent fiber density (AFD total)      |
-+-------------------------------+-----------------------------------------------+
+|                               | Total Apparent fiber density (AFD total)      |
++      Tractoflow - FODF        +-----------------------------------------------+
 |                               | Number of fober direction (NuFO)              |
 +-------------------------------+-----------------------------------------------+
-| NODDI flow                    | Intra-cellular volume fraction (ICvf)         |
-+-------------------------------+-----------------------------------------------+
+|                               | Intra-cellular volume fraction (ICvf)         |
++                               +-----------------------------------------------+
 |                               | Extra-cellular volume fraction (ECvf)         |
-+-------------------------------+-----------------------------------------------+
++          NODDI Flow           +-----------------------------------------------+
 |                               | Isotropic volume fraction (ISOvf)             |
-+-------------------------------+-----------------------------------------------+
++                               +-----------------------------------------------+
 |                               | Orientation direction (OD)                    |
 +-------------------------------+-----------------------------------------------+
-| ihMT flow                     | ihMT ratio (ihMTR)                            |
-+-------------------------------+-----------------------------------------------+
+|                               | ihMT ratio (ihMTR)                            |
++                               +-----------------------------------------------+
 |                               | ihMT delta R1 saturation (ihMTsat)            |
-+-------------------------------+-----------------------------------------------+
++           ihMT Flow           +-----------------------------------------------+
 |                               | MT ratio (MTR)                                |
-+-------------------------------+-----------------------------------------------+
++                               +-----------------------------------------------+
 |                               | MT saturation (MTsat)                         |
 +-------------------------------+-----------------------------------------------+
 
 
-With description of metrics is usefull ? 
+* Add description of metrics is usefull ? 
 
 +-------------------------------+-----------------------------------------------+-------------------------------------------------------------------------+
 | Tools                         | MRI measurements (mean)                       |                      Description                                        |
 +===============================+===============================================+=========================================================================+
 |                               | Fractional anisotropy (FA)                    | Anisotropy measure of the diffusion tensor                              |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
-|    Tractoflow - DTI           | Mean Diffusivity (MD)                         | Average diffusion rate across every axis (s/mm2)                        |
-+                               +-----------------------------------------------+-------------------------------------------------------------------------+
+|                               | Mean Diffusivity (MD)                         | Average diffusion rate across every axis (s/mm2)                        |
++       Tractoflow - DTI        +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Radial Diffusivity (RD)                       | Average diffusion rate across radial axes (s/mm2)                       |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Axial Diffusivity (AD)                        | Diffusion rate along the principal diffusion axis (s/mm2)               |
 +-------------------------------+-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Fractional anisotropy tissue (FA-FWcorrected) |                                                                         |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
-|       Freewater flow -        | Mean Diffusivity tissue (MD-FWcorrected)      |                                                                         |
-+                               +-----------------------------------------------+-------------------------------------------------------------------------+
+|                               | Mean Diffusivity tissue (MD-FWcorrected)      |                                                                         |
++       Freewater Flow          +-----------------------------------------------+-------------------------------------------------------------------------+
 |      DTI-FW corrected         | Radial Diffusivity tissue (RD-FWcorrected)    |                                                                         |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Axial Diffusivity tissue (AD-FWcorrected)     |                                                                         |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Free water (FW)                               | Estimation of the freewater fraction                                    |
 +-------------------------------+-----------------------------------------------+-------------------------------------------------------------------------+
-| Tractoflow - FODF             | Total Apparent fiber density (AFD total)      | Spherical harmonic coefficient 0 of the fODF                            |
-+                               +-----------------------------------------------+-------------------------------------------------------------------------+
+|                               | Total Apparent fiber density (AFD total)      | Spherical harmonic coefficient 0 of the fODF                            |
++      Tractoflow - FODF        +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Number of fober direction (NuFO)              | Number of local maxima of the fODF                                      |
 +-------------------------------+-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Intra-cellular volume fraction (ICvf)         |                                                                         |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
-|  NODDI flow                   | Extra-cellular volume fraction (ECvf)         |                                                                         |
-+                               +-----------------------------------------------+-------------------------------------------------------------------------+
+|                               | Extra-cellular volume fraction (ECvf)         |                                                                         |
++          NODDI Flow           +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Isotropic volume fraction (ISOvf)             | Estimates the volume fraction of extracellular free-water               |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | Orientation direction (OD)                    | Represents the orientational distribution of the intra-neurite space    |
 +-------------------------------+-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | ihMT ratio (ihMTR)                            | Represent a measure of fractional myelin content                        |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
-|         ihMT flow             | ihMT delta R1 saturation (ihMTsat)            |            				                                  |
-+                               +-----------------------------------------------+-------------------------------------------------------------------------+
+|                               | ihMT delta R1 saturation (ihMTsat)            |            				                                  |
++          ihMT Flow            +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | MT ratio (MTR)                                |             				                                  |
 +                               +-----------------------------------------------+-------------------------------------------------------------------------+
 |                               | MT saturation (MTsat)                         |            				                                  |

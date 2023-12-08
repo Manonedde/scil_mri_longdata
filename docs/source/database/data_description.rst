@@ -13,14 +13,13 @@ The study was approved by the local ethics committee (Comité d’éthique de la
 
 .. figure:: data_collection.png
    :align: center
-   :scale: 110%
 
    **3DT1** - Anatomical 3D T1-weighted, **DWI** - Diffusion weighted Images, **reverse b0** - Reverse phase encoding B0, **ihMT** - inhomogeneous magnetization transfer.
-
 
 MRI acquisition parameters
 ---------------------------
 
+All MRI data acquisitions were aligned on the anterior commissure-posterior commissure plan (AC-PC).
 The imaging protocol included the following sequences:
 
 +--------------------------------+-------------+-------------+-------------+----------------+----------------+
@@ -61,7 +60,6 @@ The imaging protocol included the following sequences:
 +--------------------------------+-------------+-------------+-------------+----------------+----------------+
 *The directions are specified in coordinates of the patient (LPH).
 
-All MRI data acquisitions were aligned on the anterior commissure-posterior commissure plan (AC-PC).
 An example of bvec and bval file for DWI can be downloaded here:
 
  :download:`bval bvec files<../data/mri/bval_bvec_files.zip>`
@@ -119,12 +117,12 @@ To convert our DICOM data folder to the compatible BIDS structure, we used
 Quality Control raw data
 ------------------------
 
-Quality control of raw data was performed using DMRIQC flow `DMRI QC Flow`_.
+Quality control of raw data was performed using `DMRI QC Flow`_.
 
 Example of datasets for one subject
 -----------------------------------
 
-** Anatomical image **
+* Anatomical image
 
 +---------------------------------+
 |              3D-T1w             | 
@@ -133,22 +131,22 @@ Example of datasets for one subject
 |    :width: 200                  |
 +---------------------------------+
 
-** Diffusion images **
+* Diffusion images
 
 +----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 |        DWI - b0            |    DWI - b value = 300     |    DWI - b value = 1000    |    DWI - b value = 2000    |      DWI - Reverse B0      |
 +============================+============================+============================+============================+============================+
-| .. image:: b0.gif          |  .. image:: b300.gif       | .. image:: b1000.gif       | .. image:: b2000.gif       | .. image:: epi.gif         |
+| .. image:: b0.gif          |  .. image:: b300.gif       | .. image:: b1000.gif       | .. image:: b2000.gif       | .. image:: revb0.gif       |
 |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |    :width: 200             |
 +----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 
-** ihMT images **
+* ihMT images
 
 +--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
 |          MT-Off          |     Positive (pos)    |    Negative (neg)     |  Alternative pos-neg  | Alternative neg-pos   |      T1w ihMT        |
 +==========================+=======================+=======================+=======================+=======================+======================+
 | .. image:: mtoff.gif     | .. image:: pos.gif    |  .. image:: neg.gif   | .. image:: altpn.gif  | .. image:: altnp.gif  | .. image:: T1w.gif   |
-|    :width: 200           |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200       |
+|    :width: 210           |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 200        |    :width: 210       |
 +--------------------------+-----------------------+-----------------------+-----------------------+-----------------------+----------------------+
 
 

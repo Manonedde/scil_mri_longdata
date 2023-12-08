@@ -4,12 +4,12 @@ MRI Processing
 Processing pipeline
 ------------------
 
-The processing of 3DT1, DWI and ihMT images involves several pipelines (flows, using `Nextflow`_ tools) developed by `SCIL`_.
+The processing of 3DT1, DWI and ihMT images involves several pipelines using `Nextflow`_ 
+tools and developed by `SCIL`_.
 The main steps of the processing are summarized in the figure below. The main steps are:
 
 .. figure:: pipelines.png
    :align: center
-   :scale: 100%
 
    Figure 1. Pipelines overview.
 
