@@ -34,14 +34,16 @@ FW
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/FW_measurement_boxplot.html
+
+    <iframe src="../data/WB/FW_measurement_boxplot.html"  width=900 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 fODF
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../data/WB/FODF_measurement_boxplot.html
+
+    <iframe src="../data/WB/FODF_measurement_boxplot.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 NODDI

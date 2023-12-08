@@ -1,7 +1,7 @@
 Arcuate Fasciculus
 ==========================
 
-.. figure:: ../data/AF/AF.gif
+.. figure:: ../_static/AF/AF.gif
     :align: center
     :figwidth: 55%
 
@@ -16,7 +16,7 @@ For better contrast, Pearson correlation coefficients are displayed as absolute 
 
 .. raw:: html
 
-    <iframe src="../data/AF_correlation_map_with_slider.html"  width=800 height=800 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF_correlation_map_with_slider.html"  width=800 height=800 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Correlations - OLS regression
@@ -29,7 +29,7 @@ Use the menu to change the pair of associations.
 
 .. raw:: html
 
-    <iframe src="../data/AF/AF_correlation_plots.html"  width=1100 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/AF_correlation_plots.html"  width=1100 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 Bundle average measures
@@ -41,7 +41,7 @@ Use the slider to change the MRI measurements. For ease of reading, RD, MD and A
 
 .. raw:: html 
 
-    <iframe src="../data/AF/AF_boxplot_measures.html"  width=900 height=700 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/AF/AF_boxplot_measures.html"  width=900 height=700 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 
@@ -62,43 +62,43 @@ For ease of reading, RD, MD and AD values are expressed in x10-3 and ihMTsat val
 
             .. raw:: html
 
-                <iframe src="../data/AF/AF_volume_profile.html"  width=800 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/AF_volume_profile.html"  width=800 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
          .. tab:: DTI
 
             .. raw:: html
 
-                <iframe src="../data/AF/DTI__AF_profile.html"  width=1000 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/DTI__AF_profile.html"  width=1000 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
          .. tab:: DTI-FW
 
             .. raw:: html
 
-                <iframe src="../data/AF/DTI-FW__AF_profile.html"  width=900 height=600 style="padding:0.1; border:0.1; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/DTI-FW__AF_profile.html"  width=900 height=600 style="padding:0.1; border:0.1; display: block; margin-left: auto; margin-right: auto"></iframe>
 
          .. tab:: FW
 
             .. raw:: html
 
-                <iframe src="../data/AF/FW__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/FW__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
          .. tab:: FODF
 
             .. raw:: html
 
-                <iframe src="../data/AF/FODF__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/FODF__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
          .. tab:: NODDI
 
             .. raw:: html
 
-                <iframe src="../data/AF/NODDI__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/NODDI__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
          .. tab:: MTI
 
             .. raw:: html
 
-                <iframe src="../data/AF/MTI__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+                <iframe src="../_static/AF/MTI__AF_profile.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 
@@ -119,13 +119,13 @@ over all bundle-streamlines, bundle-average and bundle-profile.
          .. tab:: Streamlines
 
             .. csv-table:: Bundle streamlines
-              :file: ../data/AF/AF_streamlines_summary.csv
+              :file: ../_static/AF/AF_streamlines_summary.csv
               :header-rows: 1
 
          .. tab:: Measures
 
             .. csv-table:: Measures
-              :file: ../data/AF/AF_average_summary.csv
+              :file: ../_static/AF/AF_average_summary.csv
               :header-rows: 1
 
    .. tab:: Profiles
@@ -135,41 +135,41 @@ over all bundle-streamlines, bundle-average and bundle-profile.
          .. tab:: Volume
 
             .. csv-table:: Volume by section
-              :file: ../data/AF/AF__profile_volume_summary.csv
+              :file: ../_static/AF/AF__profile_volume_summary.csv
               :header-rows: 1
 
          .. tab:: DTI
 
             .. csv-table:: DTI by section
-              :file: ../data/AF/DTI__profile_summary.csv
+              :file: ../_static/AF/DTI__profile_summary.csv
               :header-rows: 1
 
          .. tab:: DTI-FW
 
             .. csv-table:: DTI-FW by section
-              :file: ../data/AF/DTI-FW__profile_summary.csv
+              :file: ../_static/AF/DTI-FW__profile_summary.csv
               :header-rows: 1
 
          .. tab:: FW
 
             .. csv-table:: FW by section
-              :file: ../data/AF/FW__profile_summary.csv
+              :file: ../_static/AF/FW__profile_summary.csv
               :header-rows: 1
 
          .. tab:: FODF
 
             .. csv-table:: FODF by section
-              :file: ../data/AF/FODF__profile_summary.csv
+              :file: ../_static/AF/FODF__profile_summary.csv
               :header-rows: 1
 
          .. tab:: NODDI
 
             .. csv-table:: NODDI by section
-              :file: ../data/AF/NODDI__profile_summary.csv
+              :file: ../_static/AF/NODDI__profile_summary.csv
               :header-rows: 1
 
          .. tab:: MTI
 
             .. csv-table:: MTI by section
-              :file: ../data/AF/MTI__profile_summary.csv
+              :file: ../_static/AF/MTI__profile_summary.csv
               :header-rows: 1
