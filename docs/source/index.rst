@@ -1,4 +1,4 @@
-.. image:: ../_static/logo_scil_blanc.png
+.. image:: _static/logo_scil_blanc.png
    :scale: 30 %
    :align: left
 
