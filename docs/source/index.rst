@@ -93,7 +93,7 @@ Results of consistency analyzes could also be find `here`_.
 
   data/download
 
-  .. toctree::
+.. toctree::
   :maxdepth: 1
   :caption: Data Sharing
 
