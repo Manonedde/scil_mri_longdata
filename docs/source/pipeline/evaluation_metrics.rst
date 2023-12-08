@@ -27,7 +27,7 @@ Bundle-streamline measures
 Bundle-averaged
   For each measures, **mean** is computed by averaging the measures value of all voxels occupied by the bundle (Figure 1).
 
-  .. figure:: Figure_data_extraction_streamlines_average.pdf
+  .. figure:: Figure_data_extraction_streamlines_average.png
      :align: center
 
      Figure 1. Representation of the extraction of Bundle-streamlines and Bundle-average measures.
@@ -37,13 +37,14 @@ Bundle-profile
 
   .. figure:: bundles_profiling.png
      :align: center
+     :width: 700
 
      Figure 2. Representation of  white matter major bundle models resampled  into 20 segments for illustration. Left and right have been merged. The colors displayed on the bundles represent the section numbers from 1 (blue) to 20 (red).
 
   For each section, **mean** is computed by averaging the measures value of all voxels occupied by the section (label, Figure 1). 
   Finally, a tract profile is extracted for each combination of measurements and bundles.
 
-  .. figure:: Figure_data_extraction_profile.pdf
+  .. figure:: Figure_data_extraction_profile.png
      :align: center
 
 .. note::

@@ -37,7 +37,7 @@ FW - html
 
 .. raw:: html
 
-    <iframe src="../_static/WB/FW_measurement_boxplot.html"  width=900 height=500 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/WB/FW_measurement_boxplot.html"  width=900 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 fODF
@@ -45,7 +45,7 @@ fODF
 
 .. raw:: html
 
-    <iframe src="../_static/WB/FODF_measurement_boxplot.html"  width=900 height=600 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/WB/FODF_measurement_boxplot.html"  width=900 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 NODDI
