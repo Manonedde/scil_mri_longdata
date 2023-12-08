@@ -35,28 +35,43 @@ templates_path = ['_templates']
 # -- Options for HTML output
 html_theme = 'sphinx_rtd_theme'
 
-html_theme_options = {
-    "rightsidebar": "False",
-    "relbarbgcolor": "black"
-}
-
+html_theme = "sphinx_rtd_theme"
 html_context = {
     "sidebar_external_links_caption": "Links",
     "sidebar_external_links": [
         (
-            '<i class="fa fa-github fa-fw"></i> Scil',
+            '<i class="fa fa-github fa-fw"></i> GitHub',
             "https://github.com/scilus",
-        )
+        ),
+        (
+            '<i class="fa fa-external-link fa-fw"></i> Website',
+            "https://scil.usherbrooke.ca/",
+        ),
+        (
+            '<i class="fa fa-envelope fa-fw"></i> Contact',
+            "maxime.descoteaux@gmail.com",
+        ),
+        (
+            '<i class="fa fa-database fa-fw"></i> Resources',
+            "https://zenodo.org/records/4630660",
+        ),
     ],
 }
 
+
+
 html_logo = "_static/scil_logo.png"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_options = {
+    "rightsidebar": "False",
+    "relbarbgcolor": "black"
+}
+html_static_path = ['_static']
+html_css_files = ['custom.css',]
 #original_sidebar : ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']
 #html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
-html_static_path = ['_static']
-html_css_files = ['custom.css',  # overrides for width size
-]
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 

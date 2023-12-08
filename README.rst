@@ -85,11 +85,17 @@ Results of consistency analyzes could also be find `here`_.
   :caption: Bundles
 
   bundles/af
-  bundles/af2
 
 .. toctree::
   :maxdepth: 1
   :caption: Download
 
-  data/download_data
+  data/download
+
+  .. toctree::
+  :maxdepth: 1
+  :caption: Data Sharing
+
+  data/sharing_policy
+
 
