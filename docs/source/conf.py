@@ -1,4 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
+import sphinx_rtd_theme
 
 # -- Project information
 
@@ -33,7 +34,6 @@ templates_path = ['_templates']
 
 
 # -- Options for HTML output
-html_theme = 'sphinx_rtd_theme'
 
 html_theme = "sphinx_rtd_theme"
 html_context = {
