@@ -1,5 +1,5 @@
 .. image:: _static/logo_scil_blanc.png
-   :scale: 25 %
+   :scale: 35 %
    :align: left
 
 Welcome to the SCIL multimodal MRI longitudinal database

@@ -37,7 +37,7 @@ Extract average measurements
 
    .. figure:: Figure_processing_stepC.png
       :align: center
-      :width: 800
+      :width: 900
 
       Figure 3. Extraction of multiple measurements using the combination of segmented white matter main beams and MRI measurement maps.
 

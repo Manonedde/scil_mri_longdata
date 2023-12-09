@@ -8,10 +8,15 @@ Whole-bundles plots
 ------------------
 
  :download:`DTI <../data/download/dti_measures.zip>`
+
  :download:`DTI-FW <../data/download/dti-fw_measures.zip>`
+
  :download:`FW <../data/download/fw_measures.zip>`
+
  :download:`FODF <../data/download/fodf_measures.zip>`
+
  :download:`NODDI <../data/download/noddi_measures.zip>`
+ 
  :download:`MTI <../data/download/mti_measures.zip>`
 
 
