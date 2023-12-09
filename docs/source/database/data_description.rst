@@ -13,7 +13,7 @@ The study was approved by the local ethics committee (Comité d’éthique de la
 
 .. figure:: Figure_data_collection.png
    :align: center
-   :width: 800
+   :width: 900
 
    **3DT1** - Anatomical 3D T1-weighted, **DWI** - Diffusion weighted Images, **reverse b0** - Reverse phase encoding B0, **ihMT** - inhomogeneous magnetization transfer.
 
@@ -63,7 +63,7 @@ The imaging protocol included the following sequences:
 
 An example of bvec and bval file for DWI can be downloaded here:
 
- :download:`bval bvec files<../data/mri/bval_bvec_files.zip>`
+ :download:`bval bvec files<../data/download/bval_bvec_files.zip>`
 
 Data conversion: DICOM to BIDS
 ------------------------------

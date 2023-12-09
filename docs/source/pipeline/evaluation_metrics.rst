@@ -29,25 +29,29 @@ Bundle-averaged
 
   .. figure:: Figure_data_extraction_streamlines_average.png
      :align: center
-     :width: 500
+     :width: 700
 
      Figure 1. Representation of the extraction of Bundle-streamlines and Bundle-average measures.
 
 Bundle-profile
-  To generate the bundle-profile (also called track-profiles), `Tractometry Flow`_ first compute a centroid which is then resampled to **20 equidistant points**. Each voxel will have the section label (1 to 20) of its closest centroid point (Figure 2).
+  To generate the bundle-profile (also called track-profiles), `Tractometry Flow`_ first compute a centroid which is then resampled to **20 equidistant points**. 
+  Each voxel will have the section label (1 to 20) of its closest centroid point (Figure 2).
 
   .. figure:: bundles_profiling.png
      :align: center
-     :width: 700
+     :width: 750
 
-     Figure 2. Representation of  white matter major bundle models resampled  into 20 segments for illustration. Left and right have been merged. The colors displayed on the bundles represent the section numbers from 1 (blue) to 20 (red).
+     Figure 2. Representation of  white matter major bundle models resampled  into 20 segments for illustration. 
+     Left and right have been merged. The colors displayed on the bundles represent the section numbers from 1 (blue) to 20 (red).
 
   For each section, **mean** is computed by averaging the measures value of all voxels occupied by the section (label, Figure 1). 
-  Finally, a tract profile is extracted for each combination of measurements and bundles.
+  Finally, a tract profile is extracted for each combination of measurements and bundles (Figure 3).
 
   .. figure:: Figure_data_extraction_profile.png
      :align: center
-     :width: 500
+     :width: 700
+
+     Figure 3. Representation of the extraction of Bundle-profile measures.
 
 .. note::
 

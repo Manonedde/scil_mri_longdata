@@ -32,20 +32,20 @@ DTI-FW corrected
   :file: ../_static/WB/DTI-FW_measurement_boxplot.html
 
 
-FW - html
+FW - test resize
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
 
-    <iframe src="../_static/WB/FW_measurement_boxplot.html"  width=900 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/WB/FW_measurement_boxplot.html"  width=1000 height=1000 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
-fODF
+fODF - test resize
 ~~~~~~~~
 
 .. raw:: html
 
-    <iframe src="../_static/WB/FODF_measurement_boxplot.html"  width=900 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+    <iframe src="../_static/WB/FODF_measurement_boxplot.html"  width=1000 height=1000 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
 
 
 NODDI

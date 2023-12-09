@@ -1,5 +1,5 @@
 .. image:: _static/logo_scil_blanc.png
-   :scale: 30 %
+   :scale: 25 %
    :align: left
 
 Welcome to the SCIL multimodal MRI longitudinal database
@@ -98,3 +98,7 @@ Results of consistency analyzes could also be find `here`_.
   :caption: Data Sharing
 
   data/sharing_policy
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Link
