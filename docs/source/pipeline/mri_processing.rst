@@ -103,14 +103,6 @@ The visual quality assessment procedure was applied to the main steps according 
 +------------------+---------------------+-------------------------------------------------------------------+
 
 
-Tools (usefull ?)
----------------
-
- - For DWI and T1 processing we used `Tractoflow`_
- - For DWI processing we used `NODDI Flow`_ and `Freewater Flow`_
- - For ihMT processing we used `ihMT Flow`_
-
-
  .. _Nextflow: https://www.nextflow.io/
  .. _SCIL: http://scil.dinf.usherbrooke.ca/
  .. _Tractoflow: https://github.com/scilus/tractoflow
