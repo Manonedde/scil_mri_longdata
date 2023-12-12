@@ -5,7 +5,7 @@ Imaging Protocol
 -----------------
 
 Twenty healthy adults (mean age 36 years, age range 29-46 y.o.(SD = 4.7),
-4 men and 16 women) were scan at the Centre Hospitalier Universitaire
+4 men and 16 women) were scanned at the Centre Hospitalier Universitaire
 of Sherbrooke (CHUS) using a clinical 3T MRI scanner (Ingenia, Philips
 Healthcare, Best, Netherlands) with a 32-channel head coil. For each participant,
 images were acquired at approximately the same time of day to avoid potential diurnal effects (i.e., a morning participant had all sessions in the morning, with a tolerated 2–3-hour variation). 
@@ -51,7 +51,7 @@ The imaging protocol included the following sequences:
 |                                |             |2000 (60)    |             |                |                |
 +--------------------------------+-------------+-------------+-------------+----------------+----------------+
 |                                |             |             |             | 10 Hann pulses |                |
-|                                |             |             |             | of. 0.9 ms     |                | 
+|                                |             |             |             | of 0.9 ms      |                | 
 |      MT stauration pulse       |             |             |             | duration with  |                |
 |                                |             |             |             | 1.5 ms interval|                |
 +--------------------------------+-------------+-------------+-------------+----------------+----------------+
@@ -68,7 +68,7 @@ An example of bvec and bval file for DWI can be downloaded here:
 Data conversion: DICOM to BIDS
 ------------------------------
 
-To convert data we use `BIDS`_.
+To convert data, we use `BIDS`_.
 An example of the data structure for one subject is shown below:
 
 ::
@@ -132,7 +132,7 @@ Example of datasets for one subject
 |    :width: 200                  |
 +---------------------------------+
 
-* Diffusion images
+* Diffusion-weighted images
 
 +----------------------------+----------------------------+----------------------------+----------------------------+----------------------------+
 |        DWI - b0            |    DWI - b value = 300     |    DWI - b value = 1000    |    DWI - b value = 2000    |      DWI - Reverse B0      |
