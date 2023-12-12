@@ -57,10 +57,6 @@ html_context = {
         ),
     ],
 }
-
-
-
-html_logo = "_static/scil_logo.png"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     "rightsidebar": "False",
@@ -68,6 +64,7 @@ html_theme_options = {
 }
 html_static_path = ['_static']
 html_css_files = ['custom.css',]
+html_logo = "_static/logo_scil_blanc.png"
 #original_sidebar : ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']
 #html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
