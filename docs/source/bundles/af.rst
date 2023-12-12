@@ -41,7 +41,7 @@ Bundle average measures
 
 The figures below show the distribution of each measurement for all sessions and session average (mean).
 Use the slider to change the MRI measurements. 
-For ease of reading, RD, MD and AD values are expressed in x10-3 and ihMTsat values are expressed in x10-1.
+For ease of reading, RD, MD and AD values are expressed in x10-3 s/mm2 and ihMTsat values are expressed in x10-1.
 
 
 .. raw:: html 
