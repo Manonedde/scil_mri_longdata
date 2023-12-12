@@ -12,7 +12,7 @@ Streamline measures
 ------------------------
 
 .. raw:: html
-  :file: ../_static/WB/Streamlines_measurement_boxplot.html
+  :file: ../_static/WB/Streamlines_measurement_boxplot_with_factor.html
 
 
 MRI quantitative measures
@@ -22,43 +22,41 @@ DTI
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../_static/WB/DTI_measurement_boxplot.html
+  :file: ../_static/WB/DTI_measurement_boxplot_with_factor.html
 
 
 DTI-FW corrected
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../_static/WB/DTI-FW_measurement_boxplot.html
+  :file: ../_static/WB/DTI-FW_measurement_boxplot_with_factor.html
 
 
 FW - test resize
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-
-    <iframe src="../_static/WB/FW_measurement_boxplot.html"  width=1100 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+  :file: ../_static/WB/FW_measurement_boxplot_with_factor.html
 
 
 fODF - test resize
 ~~~~~~~~
 
 .. raw:: html
-
-    <iframe src="../_static/WB/FODF_measurement_boxplot.html"  width=1100 height=900 style="padding:0; border:0; display: block; margin-left: auto; margin-right: auto"></iframe>
+  :file: ../_static/WB/FODF_measurement_boxplot_with_factor.html
 
 
 NODDI
 ~~~~~~~~~
 
 .. raw:: html
-  :file: ../_static/WB/NODDI_measurement_boxplot.html
+  :file: ../_static/WB/NODDI_measurement_boxplot_with_factor.html
 
 
 Magnetization transfer image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
-  :file: ../_static/WB/MTI_measurement_boxplot.html
+  :file: ../_static/WB/MTI_measurement_boxplot_with_factor.html
 
 

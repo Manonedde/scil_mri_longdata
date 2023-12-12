@@ -64,7 +64,7 @@ html_theme_options = {
 }
 html_static_path = ['_static']
 html_css_files = ['custom.css',]
-html_logo = "_static/logo_scil_blanc.png"
+html_logo = "_static/logo_scil_blanc_resize150.png"
 #original_sidebar : ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']
 #html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
