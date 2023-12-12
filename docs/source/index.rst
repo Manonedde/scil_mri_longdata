@@ -7,6 +7,7 @@ Welcome to the SCIL multimodal MRI longitudinal database
 
 The SCIL longitudinal multimodal MRI database is a single-center, repeated-measure study that collects
 multimodal MRI data with a high number of acquisitions over a short period of time in healthy subjects.
+Acquisitions were done on a 3T Philips Ingenia system. 
 This dataset includes :
 
     * anatomical image (3DT1)
@@ -43,7 +44,7 @@ reliability and variability, currently. https://onlinelibrary.wiley.com/doi/10.1
 
 :download:`PDF<./data/Edde2023_HBM_HighFrequencyLongitudinal.pdf>`
 
-Results of consistency analyzes could also be find `here`_.
+Results of consistency analyzes can also be find `here`_.
 
  .. _here: https://high-frequency-mri-database-supplementary.rtfd.io
 
