@@ -72,8 +72,8 @@ html_sidebars = {
                # located at _templates/
                'layout.html',
             ]
-
         }
+
 html_logo = "_static/logo_scil_blanc_resize150.png"
 #original_sidebar : ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']
 
