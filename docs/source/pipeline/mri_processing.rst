@@ -68,47 +68,39 @@ The visual quality assessment procedure was applied to the main steps according 
 |   MRI images     |         Step        |                        Exclusion criteria                         |
 +==================+=====================+===================================================================+
 |  T1, MTI, DWI    |  Raw data           | Presence of artifacts that cannot be corrected,                   |
-|                  |                     | Incorrect field of view, Incorrect distribution of gradient (DWI) |
-|                  |                     | Too high noise in the image, High inhomogeneity (MTI),            |
-|                  |                     | Broken image, Missing part of the brain (T1, MTI)                 |
+|                  |                     | incorrect field of view, incorrect distribution of gradients.     |
+|                  |                     | Noise too high in the images, high inhomogeneity (MTI),           |
+|                  |                     | broken image, missing part of the brain (T1, MTI)                 |
 +------------------+---------------------+-------------------------------------------------------------------+
 |  T1, MTI, DWI    | Brain extraction    | Eyes included in the brain mask,                                  |
-|                  |                     | Exclusion of a part of the brain,                                 |
-|                  |                     | Inclusion of a large part of the background in the brain mask     |
+|                  |                     | exclusion of a part of the brain,                                 |
+|                  |                     | inclusion of a large part of the background in the brain mask     |
 +------------------+---------------------+-------------------------------------------------------------------+
 |      DWI         | Motion correction   | Alteration of bvecs,                                              |
-|                  |                     | Remaining motion in the DWI,                                      |
-|                  |                     | Presence of slice drop (at least in one direction)                |
+|                  |                     | remaining motion in the DWI,                                      |
+|                  |                     | presence of slice drop (at least in one direction)                |
 +------------------+---------------------+-------------------------------------------------------------------+
 |      DWI         | RGB                 | Invalid orientation in major WM structures,                       |
-|                  |                     | Low FA value in expected structure (Corpus callosum for example), |
-|                  |                     | Global color bias (indicating remaining motion)                   |
+|                  |                     | low FA value in expected structure (Corpus callosum for example), |
+|                  |                     | global color bias (indicating remaining motion)                   |
 +------------------+---------------------+-------------------------------------------------------------------+
 |  T1, MTI, DWI    | Registration        | Poor overlap between warped images and reference image            |
 +------------------+---------------------+-------------------------------------------------------------------+
 |     T1, DWI      | Mask                | Presence of holes in mask,                                        |
-|                  |                     | Some part of mask missing                                         |
+|                  |                     | some part of mask missing                                         |
 +------------------+---------------------+-------------------------------------------------------------------+
 |      DWI         | Bundle segmentation | Unexpected shape,                                                 |
-|                  |                     | Ends of bundle not in expected locations and/or without expected  |
+|                  |                     | ends of bundle not in expected locations and/or without expected  |
 |                  |                     | fanning,                                                          |
-|                  |                     | A low number of streamlines                                       |
+|                  |                     | a low number of streamlines                                       |
 +------------------+---------------------+-------------------------------------------------------------------+
 |      DWI         | Tract-profile       | Unexpected number of sections,                                    |
-|                  |                     | Unbalanced sections                                               |
+|                  |                     | unbalanced sections                                               |
 +------------------+---------------------+-------------------------------------------------------------------+
 |    MTI, DWI      | Metrics map         | Unexpected range of value (FA > 1 for example),                   |
-|                  |                     | Unexpected range of value in expected structure (low FA value in  |
-|                  |                     | Corpus callosum for example)                                      |
+|                  |                     | unexpected range of value in expected structure (low FA value in  |
+|                  |                     | corpus callosum for example)                                      |
 +------------------+---------------------+-------------------------------------------------------------------+
-
-
-Tools (usefull ?)
----------------
-
- - For DWI and T1 processing we used `Tractoflow`_
- - For DWI processing we used `NODDI Flow`_ and `Freewater Flow`_
- - For ihMT processing we used `ihMT Flow`_
 
 
  .. _Nextflow: https://www.nextflow.io/
