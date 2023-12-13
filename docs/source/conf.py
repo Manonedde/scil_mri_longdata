@@ -68,7 +68,18 @@ html_theme_options = {
 }
 html_static_path = ['_static']
 html_css_files = ['custom.css',]
+html_sidebars = {
+        '**': ['localtoc.html',
+               'relations.html',
+               'sourcelink.html',
+               'searchbox.html',
+               # located at _templates/
+               'layout.html',
+            ]
+
+        }
 #original_sidebar : ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']
+
 #html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
 
 
