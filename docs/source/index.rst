@@ -99,7 +99,3 @@ Results of consistency analyzes can also be find `here`_.
   :caption: Data Sharing
 
   data/sharing_policy
-
-.. toctree::
-  :maxdepth: 1
-  :caption: Link
