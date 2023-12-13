@@ -74,7 +74,7 @@ html_sidebars = {
             ]
         }
 
-html_logo = "_static/logo_scil_blanc_resize150.png"
+html_logo = "_static/logo_scil_blanc_resize90.png"
 #original_sidebar : ['localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html']
 
 #html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
